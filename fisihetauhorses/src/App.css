@@ -13,13 +13,14 @@ body {
 /* header */
 
 header {
-  position: relative; 
-  margin: 0; 
+  position: fixed; 
+  top: 0;
   width: 100%;
   height: 10vh;
   background-color: white;
   display: flex; 
   align-items: center;
+  z-index: 9999;
 }
 
 .header_container {
@@ -67,25 +68,32 @@ header {
 }
 
 /* main */
+.main_div_component {
+  margin-top: 10vh;
+}
 
 
 
 .main_content {
- 
+  height: 50vh; 
   position: relative; 
 }
 
 .main_image {
-  object-fit: contain;
+  object-fit: cover;
   width: 100%;
+  height: inherit;
+  padding: 0;
+  object-position: 80% 100%;
+
 }
 
 .image_title {
   position: absolute; 
   color: white;
   text-shadow: 1px 1px 2px black;
-  bottom: 8px;
-  left: 16px;
+  bottom: 12%;
+  left: 4%;
 }
 
 
@@ -93,7 +101,7 @@ header {
 .contact_container {
   margin: 2rem auto;
   text-align: center;
-  padding: 1rem 0.5rem;
+  padding: 2rem 0.5rem;
   width: 85%; 
   background-color: #eceae8;
 }
@@ -108,7 +116,11 @@ header {
   border-bottom: 1px solid #dedede;
   width: 100%; 
   padding: 0 100px; 
-  padding-bottom: 10px; 
+  padding-bottom: 1.5rem; 
+}
+
+.contact_email {
+  margin-top: 2.5rem; 
 }
 
 .company_bio h4 {
@@ -133,7 +145,9 @@ header {
   .main_phone {
     display: block; 
   }
-  
+
+ 
+ 
 }
 
 
