@@ -3,7 +3,6 @@
 }
 
 body {
-
   margin: 0;
   padding: 0; 
   background-color: white; 
@@ -11,7 +10,10 @@ body {
  
 }
 
+/* header */
+
 header {
+  position: relative; 
   margin: 0; 
   width: 100%;
   height: 10vh;
@@ -63,6 +65,62 @@ header {
 .fa-horse {
   color: #e6c870;
 }
+
+/* main */
+
+
+
+.main_content {
+ 
+  position: relative; 
+}
+
+.main_image {
+  object-fit: contain;
+  width: 100%;
+}
+
+.image_title {
+  position: absolute; 
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  bottom: 8px;
+  left: 16px;
+}
+
+
+
+.contact_container {
+  margin: 2rem auto;
+  text-align: center;
+  padding: 1rem 0.5rem;
+  width: 85%; 
+  background-color: #eceae8;
+}
+
+.contact_container > p {
+  margin-bottom: 0; 
+}
+
+
+
+.contact_phone {
+  border-bottom: 1px solid #dedede;
+  width: 100%; 
+  padding: 0 100px; 
+  padding-bottom: 10px; 
+}
+
+.company_bio h4 {
+  margin: 0; 
+}
+
+.company_bio {
+  margin: 0 auto;
+  width: 85%;
+}
+
+
 
 /* media queries */
 
