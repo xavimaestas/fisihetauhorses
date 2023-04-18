@@ -1,0 +1,59 @@
+
+
+body {
+  margin: 0;
+  background-color: white; 
+  font-family: 'Playfair Display';
+ 
+}
+
+header {
+  height: 10vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title_container {
+  display: flex;
+  align-items: center;
+}
+
+.main_title {
+  margin: 0 5px 0 0;
+  color: green; 
+  
+}
+
+.drop_down {
+  width: 20vw;
+  order: 1;
+}
+
+.main_phone {
+  margin: 0;
+  color: green;
+}
+
+.fa-bars {
+  
+  order: -1;
+  color: red; 
+}
+
+.fa-horse {
+  margin-top: 5px;
+  color: gold;
+}
+
+
+
+/* fonts */
+
+
+
+
+
+
+
