@@ -142,6 +142,7 @@ header {
 
 .contact_container {
   display:flex;
+  align-items: center;
   flex-direction: column;
   margin: 3rem auto;
   text-align: center;
@@ -164,9 +165,10 @@ header {
 
 
 .contact_phone {
+  
   border-bottom: 1px solid #dedede;
-  width: inherit; 
-  padding: 0 10vw; 
+  width: 75vw; 
+  padding: 0px 300px;
   padding-bottom: 1.5rem; 
 }
 
@@ -187,7 +189,7 @@ header {
 
 .experience {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   width: 40vw;
   margin-bottom: 2rem; 
 }
@@ -221,7 +223,7 @@ header {
  
 }
 
-@media (max-width: 1070px) {
+@media (max-width: 1200px) {
   .bio_container {
     flex-direction: column;
     align-items: center;
@@ -231,15 +233,28 @@ header {
     width: 75vw; 
   }
 
-  .sam_horse {
-    max-width: 750px; 
-    width: auto;
-    height: auto; 
-  }
-
   .contact_container {
+  
     width: 75vw;
   }
+
+  .contact_phone {
+  
+
+    width: 65vw; 
+  
+  }
+
+
+
+
+
+  /* .contact_phone {
+    border-bottom: 1px solid red;
+    width: inherit;
+    padding: 0 5vw; 
+    padding-bottom: 1.5rem; 
+  } */
 }
 
 
