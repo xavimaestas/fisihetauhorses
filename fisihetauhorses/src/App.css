@@ -183,7 +183,10 @@ header {
   width: 75vw;
   height: 100%;
   object-fit: cover;
-  margin-top: 0.5rem;
+}
+
+.video_margin {
+  margin-top: 3rem;
 }
 
 .video_container {

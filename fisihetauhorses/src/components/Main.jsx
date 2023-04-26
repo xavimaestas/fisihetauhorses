@@ -32,7 +32,7 @@ export default function Main(){
 
                     <video className="sam_riding_v1 content" preLoad="auto" loop muted controls autoPlay={"autoplay"} src={samRiding1}></video>
 
-                    <video className="sam_riding_v1 content" src={samRiding2} preLoad="auto" loop muted controls autoPlay={"autoplay"}></video>
+                    <video className="sam_riding_v1 content video_margin" src={samRiding2} preLoad="auto" loop muted="muted" controls="controls" autoPlay={"autoplay"}></video>
                         
                     </div>
 
