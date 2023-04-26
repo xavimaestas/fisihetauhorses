@@ -12,7 +12,7 @@ export default function Footer(){
                             <i className="
                             fa-brands 
                             fa-instagram 
-                            fa-xl
+                            fa-2xl
                             "></i>
                         </a>
                         
@@ -20,32 +20,33 @@ export default function Footer(){
                             <i className="
                             fa-brands 
                             fa-facebook
-                            fa-xl
+                            fa-2xl
                             "></i>
                         </a>
 
                         <a className="icons"href="https://tiktok.com/@samuelnfisihetau" target="_blank">
                             <i className="fa-brands 
                             fa-tiktok
-                            fa-xl
+                            fa-2xl
                             "></i>
                         </a>
 
                         <a className="icons"href="tel:801-815-2473" target="_blank">
                             <i class="fa-solid 
                             fa-phone 
-                            fa-xl
+                            fa-2xl
                             ">
                             </i>
                         </a>
 
-                        <a                                                className="icons"href="mailto:snfisihetau@gmail.com" target="_blank">
-                            <i class="fa-solid 
+                        <a                                        className="icons"href="mailto:snfisihetau@gmail.com" target="_blank">
+                            <i class="fa-regular
                             fa-envelope 
-                            fa-xl
-                            icons ">
+                            fa-2xl
+                            icons">
                             </i>
                         </a>
+
 
                         </div>
 
