@@ -78,7 +78,7 @@ Error generating stack: `+o.message+`
                             `})}),M("a",{className:"icons",href:"tel:801-815-2473",target:"_blank",children:M("i",{class:`fa-solid 
                             fa-phone 
                             fa-xl
-                            `})}),M("a",{className:"icons",href:"mailto:snfisihetau@gmail.com",target:"_blank",children:M("i",{class:`fa-solid 
+                            `})}),M("a",{className:"icons",href:"mailto:snfisihetau@gmail.com",target:"_blank",children:M("i",{class:`fa-regular
                             fa-envelope 
                             fa-xl
-                            icons `})})]})})})}function Ep(){return je("div",{className:"App",children:[M(hp,{}),M(Sp,{}),M(kp,{})]})}Jl.createRoot(document.getElementById("root")).render(M(ps.StrictMode,{children:M(Ep,{})}));
+                            icons`})})]})})})}function Ep(){return je("div",{className:"App",children:[M(hp,{}),M(Sp,{}),M(kp,{})]})}Jl.createRoot(document.getElementById("root")).render(M(ps.StrictMode,{children:M(Ep,{})}));
