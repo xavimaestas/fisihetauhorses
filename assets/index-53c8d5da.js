@@ -67,18 +67,18 @@ Error generating stack: `+o.message+`
  */function mp(e){let{basename:n,children:t,window:r}=e,l=b.useRef();l.current==null&&(l.current=Zd({window:r,v5Compat:!0}));let o=l.current,[i,u]=b.useState({action:o.action,location:o.location});return b.useLayoutEffect(()=>o.listen(u),[o]),b.createElement(pp,{basename:n,children:t,location:i.location,navigationType:i.action,navigator:o})}var ls;(function(e){e.UseScrollRestoration="useScrollRestoration",e.UseSubmitImpl="useSubmitImpl",e.UseFetcher="useFetcher"})(ls||(ls={}));var os;(function(e){e.UseFetchers="useFetchers",e.UseScrollRestoration="useScrollRestoration"})(os||(os={}));function hp(){return je("header",{children:[M("div",{className:"header_container",children:je("div",{className:"title_container",children:[M("h1",{className:"main_title",children:"Fisihetau Horses"}),M("i",{className:"fa-solid fa-horse fa-lg"})]})}),M(mp,{})]})}const vp="/fisihetauhorses/assets/sam-horse-fd0847cb.jpeg",yp="/fisihetauhorses/assets/sam-canyon-4da336dd.jpeg",gp="/fisihetauhorses/assets/sam-riding1-db402e3a.mp4",wp="/fisihetauhorses/assets/sam-riding2-bcb3140c.mp4";function Sp(){return je("div",{className:"main_div_component",children:[je("section",{className:"main_content",children:[M("img",{className:"main_image",alt:"horse running",src:yp}),M("h1",{className:"image_title"})]}),M("section",{className:"all_info",id:"all_info",children:je("div",{className:"bio_container",id:"bio_container",children:[je("div",{className:"experience",id:"experience",children:[je("div",{className:"experience_text",children:[M("h4",{children:"The Experience"}),M("p",{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas consequuntur labore itaque sunt fugiat. Optio aliquam doloribus deleniti ab ullam placeat minima, dolorum amet odio laboriosam quo corrupti molestias ea veniam deserunt est nam odit temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi libero nostrum, accusantium tempora ad atque quis nisi facere fugiat tenetur quibusdam, deserunt dolores quos itaque qui veniam dicta odit voluptas? "})]}),M("img",{className:"sam_horse ",alt:"horse",src:vp})]}),M("div",{className:"horse_container",children:je("div",{className:"video_container",id:"video_container",children:[M("video",{className:"sam_riding_v1 content",preLoad:"auto",loop:!0,muted:!0,controls:!0,autoPlay:"autoplay",src:gp}),M("video",{className:"sam_riding_v1 content",src:wp,preLoad:"auto",loop:!0,muted:!0,controls:!0,autoPlay:"autoplay"})]})})]})})]})}function kp(){return M("footer",{children:M("div",{className:"footer_container",children:je("div",{className:"social_icons",children:[M("a",{className:"icons",href:"https://instagram.com/snfisihetau",target:"_blank",children:M("i",{className:`
                             fa-brands 
                             fa-instagram 
-                            fa-xl
+                            fa-2xl
                             `})}),M("a",{className:"icons",href:"https://www.facebook.com/snfisihetau",target:"_blank",children:M("i",{className:`
                             fa-brands 
                             fa-facebook
-                            fa-xl
+                            fa-2xl
                             `})}),M("a",{className:"icons",href:"https://tiktok.com/@samuelnfisihetau",target:"_blank",children:M("i",{className:`fa-brands 
                             fa-tiktok
-                            fa-xl
+                            fa-2xl
                             `})}),M("a",{className:"icons",href:"tel:801-815-2473",target:"_blank",children:M("i",{class:`fa-solid 
                             fa-phone 
-                            fa-xl
+                            fa-2xl
                             `})}),M("a",{className:"icons",href:"mailto:snfisihetau@gmail.com",target:"_blank",children:M("i",{class:`fa-regular
                             fa-envelope 
-                            fa-xl
+                            fa-2xl
                             icons`})})]})})})}function Ep(){return je("div",{className:"App",children:[M(hp,{}),M(Sp,{}),M(kp,{})]})}Jl.createRoot(document.getElementById("root")).render(M(ps.StrictMode,{children:M(Ep,{})}));
