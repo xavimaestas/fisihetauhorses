@@ -145,7 +145,7 @@ header {
   flex-direction: column;
   text-align: left;
   padding: 0 ;
-  margin: 2rem auto;
+  margin: 2rem auto 6rem auto;
   width: 75vw;
 }
 
