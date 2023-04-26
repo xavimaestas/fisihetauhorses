@@ -75,7 +75,7 @@ Error generating stack: `+o.message+`
                             `})}),M("a",{className:"icons",href:"https://tiktok.com/@samuelnfisihetau",target:"_blank",children:M("i",{className:`fa-brands 
                             fa-tiktok
                             fa-2xl
-                            `})}),M("a",{className:"icons",href:"tel:+18018152473",target:"_blank",children:M("i",{class:`fa-solid 
+                            `})}),M("a",{className:"icons",href:"tel:18018152473",target:"_blank",children:M("i",{class:`fa-solid 
                             fa-phone 
                             fa-2xl
                             `})}),M("a",{className:"icons",href:"mailto:snfisihetau@gmail.com",target:"_blank",children:M("i",{class:`fa-regular
