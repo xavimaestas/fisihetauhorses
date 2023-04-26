@@ -32,14 +32,14 @@ export default function Footer(){
                         </a>
 
                         <a className="icons"href="tel:801-815-2473" target="_blank">
-                        <i class="fa-solid 
-                        fa-phone 
-                        fa-xl
-                        ">
-                        </i>
+                            <i class="fa-solid 
+                            fa-phone 
+                            fa-xl
+                            ">
+                            </i>
                         </a>
 
-                        <a className="icons"href="mailto:snfisihetau@gmail.com" target="_blank">
+                        <a                                                className="icons"href="mailto:snfisihetau@gmail.com" target="_blank">
                             <i class="fa-solid 
                             fa-envelope 
                             fa-xl

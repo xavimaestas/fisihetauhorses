@@ -143,21 +143,27 @@ header {
 
 .bio_container {
   flex-direction: column;
-  align-items: center;
-  padding: 0 10vw;
-  margin: 2rem 0;
-  width: 100%;
+  text-align: left;
+  padding: 0 ;
+  margin: 2rem auto;
+  width: 75vw;
 }
 
 .experience {
+  display: flex;
+  flex-direction: column;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.3rem;
   width: inherit;
-  margin-bottom: 2rem; 
+  margin: 3rem auto; 
+}
+
+.experience_text {
+  width: 75vw;
 }
 
 .horse_container {
-  width: inherit;
+  width: 75vw;
   height: auto;
 }
 
@@ -166,19 +172,22 @@ header {
 }
 
 .sam_horse {
-  margin: 0;
+  width: 75vw;
+  height: auto;
+  object-fit: cover;
+  margin: 0 auto;
 }
 
 .content {
   margin: 0;
-  width: 100%;
+  width: 75vw;
   height: 100%;
   object-fit: cover;
   margin-top: 0.5rem;
 }
 
 .video_container {
-  width: 100%;
+  width: 75vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -186,7 +195,7 @@ header {
 }
 
 .sam_riding_v1 {
-  width: 100%;
+  width: 75%;
   object-fit: cover;
 }
 
@@ -238,10 +247,26 @@ footer {
 
 /* media queries */
 
-@media (min-width:800px){
+@media (min-width:1000px){
   .video_container {
     display: none; 
   }
+
+  .experience {
+    flex-direction: row;
+   
+  }
+
+  .sam_horse {
+    width: 30vw;
+ 
+  }
+
+  .experience_text {
+    width: 35vw;
+  }
+  
+
 
 }
 

@@ -18,12 +18,15 @@ export default function Main(){
 
             <div className="bio_container" id="bio_container">
                 <div className="experience" id="experience">
+
+                    <div className="experience_text">
                     <h4>The Experience</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas consequuntur labore itaque sunt fugiat. Optio aliquam doloribus deleniti ab ullam placeat minima, dolorum amet odio laboriosam quo corrupti molestias ea veniam deserunt est nam odit temporibus! </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas consequuntur labore itaque sunt fugiat. Optio aliquam doloribus deleniti ab ullam placeat minima, dolorum amet odio laboriosam quo corrupti molestias ea veniam deserunt est nam odit temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi libero nostrum, accusantium tempora ad atque quis nisi facere fugiat tenetur quibusdam, deserunt dolores quos itaque qui veniam dicta odit voluptas? </p>
+                    </div>
+                   
+                    <img className="sam_horse " alt="horse" src={samHorse}></img>
                 </div>
                 <div className="horse_container">
-
-                    <img className="sam_horse content" alt="horse" src={samHorse}></img>
 
                     <div className="video_container" id="video_container">
 
