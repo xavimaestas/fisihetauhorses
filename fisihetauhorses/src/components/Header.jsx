@@ -12,15 +12,19 @@ export default function Header(){
                 <div className="title_container">
                     <h1 className ="main_title">Fisihetau Horses</h1>
                     <i className="fa-solid fa-horse fa-lg"></i>
+                   
                 </div>
-                <a className="main_phone" href="tel:111-111-1111">111-111-1111</a>
-            </div>
+
+          
+
+                </div>
+                   
             
-            <Router>
-                <Dropdown />
-            </Router>
+                <Router>
+                   
+                </Router>
            
-            
+               
         </header>
 
     )

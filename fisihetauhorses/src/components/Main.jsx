@@ -1,5 +1,7 @@
 import samHorse from '../assets/sam-horse.jpeg'
 import samCanyon from '../assets/sam-canyon.jpeg'
+import samRiding1 from '../assets/sam-riding1.mp4'
+import samRiding2 from '../assets/sam-riding2.mp4'
 
 export default function Main(){
     return (
@@ -8,28 +10,41 @@ export default function Main(){
 
         <section className="main_content">
             <img  className="main_image"alt="horse running" src={samCanyon}></img>
-            <h1 className="image_title">Horseback Adventures</h1> 
+            <h1 className="image_title"></h1> 
         </section>
 
-        <section className="all_info">
+        <section className="all_info" id="all_info">
             
 
-            <div className="bio_container">
+            <div className="bio_container" id="bio_container">
                 <div className="experience" id="experience">
                     <h4>The Experience</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas consequuntur labore itaque sunt fugiat. Optio aliquam doloribus deleniti ab ullam placeat minima, dolorum amet odio laboriosam quo corrupti molestias ea veniam deserunt est nam odit temporibus! Voluptas omnis molestiae optio quam magnam perferendis quo laudantium unde quibusdam nostrum placeat quia modi, eaque sed laborum sunt itaque quisquam repudiandae illum rem nulla. Molestiae recusandae ipsa sint nisi, non aliquid? Modi exercitationem repellat, laudantium animi aperiam dolorum quae veniam architecto eveniet, atque repudiandae, eaque eum? Iste possimus consequuntur veniam aut, praesentium magnam minus sed minima reiciendis hic, sunt laborum fuga voluptatibus ipsa!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas consequuntur labore itaque sunt fugiat. Optio aliquam doloribus deleniti ab ullam placeat minima, dolorum amet odio laboriosam quo corrupti molestias ea veniam deserunt est nam odit temporibus! </p>
                 </div>
                 <div className="horse_container">
-                    <img className="sam_horse" alt="horse" src={samHorse}></img>
+
+                    <img className="sam_horse content" alt="horse" src={samHorse}></img>
+
+                    <div className="video_container" id="video_container">
+
+                    <video className="sam_riding_v1 content" preLoad="auto" loop muted controls autoPlay={"autoplay"} src={samRiding1}></video>
+
+                    <video className="sam_riding_v1 content" src={samRiding2} preLoad="auto" loop muted controls autoPlay={"autoplay"}></video>
+                        
+                    </div>
+
+                  
+
                 </div>
+
+            
                 
               
             </div>
 
-            <div className="contact_container" id="contact_container">
-                <a className="contact_phone" href="tel:1111111111">111.111.1111</a>
-                <p className="contact_email">Email@email.com</p>
-            </div>
+          
+
+
 
         </section>
 

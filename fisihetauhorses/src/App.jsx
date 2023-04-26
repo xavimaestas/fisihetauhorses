@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './fonts.css'
-import Header from "./components/Header.jsx"
 import './App.css'
+import Header from "./components/Header.jsx"
 import Body from "./components/Main.jsx"
+import Footer from "./components/Footer.jsx"
 
 
 
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
       <Header />
       <Body />
+      <Footer />
     </div>
   )
 }

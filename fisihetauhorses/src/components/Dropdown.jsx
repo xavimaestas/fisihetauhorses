@@ -9,7 +9,7 @@ export default function Dropdown(){
                 <Link to='#experience'>The Experience</Link>
                 
                 <br></br>
-                <Link to='#contact_container'>Contact</Link>
+                <Link to='#video_container'>Riding Content</Link>
             </div>
         
         </div>
