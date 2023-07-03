@@ -7,7 +7,16 @@ body {
   padding: 0; 
   background-color: white; 
   color: #212427;
- 
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+p {
+
+  margin-top: 0.5rem;
+}
+
+.page_top_margin {
+  margin-top: 15vh; 
 }
 
 /* header */
@@ -17,93 +26,75 @@ header {
   top: 0;
   width: 100%;
   height: 11vh;
-  background-color: white;
-  display: flex; 
-  align-items: center;
-  z-index: 9999;
-}
-
-.header_container {
   width: 100%;
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  
-
+  z-index: 9999;
+  background-color: white;
 }
-
-
-.title_container {
-  display: flex; 
-  align-items: left;
   
- 
-}
 
 .main_title {
   font-family: 'Lobster Two', cursive;
+  font-weight: bold;
   font-style: italic;
-  font-size: 2.2rem;
-  margin-right: 1rem;
-
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: #212427;
+  text-decoration: none;
   
+}
+
+.nav_container {
+  display: none;
 }
 
 .drop_down {
   position: relative; 
   display: inline-block;
-  width: 2vw;
-  order: -1;
-
+  margin-right: 1rem;
 }
 
 .drop_down_content {
   display: none;
   position: absolute;
+  left: -140px;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 190px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   padding: 0.5rem;
+  font-size: 0.7rem;
+
 }
 
 .drop_down_content a {
-   color: black;
-   text-decoration: none;
+  margin-top: 0.2rem;
+  color: black;
+  text-decoration: none;
 }
 
 .drop_down_content a:hover {
   color: gray; 
 }
 
-.nav_container {
-  display: flex;
-  align-items: center;
-}
-
-.nav_container p {
-  margin-right: 1rem;
-}
-
-
-
-
-.fa-bars {
-  padding: 1rem; 
-  order: -2;
-  color: #36454f; 
-}
-
-.fa-bars:hover{
-  color: #e6c870;
-}
-
 .drop_down:hover .drop_down_content {
-  display: block; 
+  display:flex; 
+  flex-direction: column;
+
 }
 
-.drop_down:active .drop_down_content {
-  display: block; 
+
+.navLink {
+  margin-right: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
 }
+
 
 .fa-horse {
   display: none;
@@ -115,7 +106,6 @@ header {
   margin-top: 10vh;
   padding-bottom: 3rem;
 }
-
 
 
 .main_content {
@@ -147,27 +137,27 @@ header {
 
 .bio_container {
   flex-direction: column;
+ 
   text-align: left;
   padding: 0 ;
   margin: 2rem auto 6rem auto;
-  width: 75vw;
+  width: 80vw;
 }
 
 .experience {
   display: flex;
   flex-direction: column;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.3rem;
+  align-items: center;
   width: inherit;
   margin: 3rem auto; 
 }
 
-.experience_text {
-  width: 75vw;
+.contact_main {
+  list-style: none;
 }
 
 .horse_container {
-  width: 75vw;
+  width: 80vw;
   height: auto;
 }
 
@@ -176,7 +166,7 @@ header {
 }
 
 .sam_horse {
-  width: 75vw;
+  width: 80vw;
   height: auto;
   object-fit: cover;
   margin: 0 auto;
@@ -184,7 +174,7 @@ header {
 
 .content {
   margin: 0;
-  width: 75vw;
+  width: 80vw;
   height: 100%;
   object-fit: cover;
 }
@@ -194,7 +184,7 @@ header {
 }
 
 .video_container {
-  width: 75vw;
+  width: 80vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -202,8 +192,118 @@ header {
 }
 
 .sam_riding_v1 {
-  width: 75vw;
+  width: 80vw;
   object-fit: cover;
+}
+
+/* Owner */
+.about_owner_container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.owner1 {
+  width: 80vw;
+  max-width: 300px;
+  max-height: 350px;
+  min-height: 300px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.about-owner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 80vw;
+  max-width: 300px;
+  
+  margin-bottom: 10rem;
+}
+
+.about-owner-text p {
+  margin-top: -0.75rem;
+}
+
+
+/* Meet Horses */
+
+.meet-horses-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.meet-horse-img {
+  width: 80vw;
+  max-width: 400px;
+  max-height: 75vw;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.meet-horses-text {
+  width: 80vw;
+  max-width: 400px;
+}
+
+.meet-horses-text p {
+ margin-top: -0.75rem;
+}
+
+.meet-horses-bottom {
+  margin-bottom: 7rem;
+}
+
+/* Pricing */
+
+.pricing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-img {
+  width: 80vw;
+  max-width: 400px;
+  object-fit: cover;
+  margin: 0 auto;
+
+}
+
+.pricing-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 80vw;
+  max-width: 400px;
+  margin-bottom: 10rem;
+}
+
+
+
+.pricing-list li {
+  list-style: none;
+}
+
+.pricing-list {
+
+  align-items: left;
+  margin-top: -2rem;
+  list-style: none;
+ 
+}
+
+.pricing-text h3 {
+  margin-bottom: 2rem;
 }
 
 /* footer */
@@ -213,7 +313,7 @@ footer {
   bottom: 0;
   width: 100%;
   height: 10vh;
-  background-color: #E7E4E4;
+  background-color: #d2d6db;
   z-index: 9999;
 }
 
@@ -244,8 +344,10 @@ footer {
   color: #212427
 }
 
-.icons:hover {
-  color: #5A6672
+.icons:hover,
+.navLink:hover {
+  color: #5A6672;
+  cursor: pointer;
 }
 
 
@@ -262,7 +364,7 @@ footer {
 
   .experience {
     flex-direction: row;
-   
+    justify-content: space-between;
   }
 
   .sam_horse {
@@ -272,6 +374,15 @@ footer {
 
   .experience_text {
     width: 35vw;
+  }
+
+  .drop_down {
+    display: none;
+  }
+
+  .nav_container {
+    display: block;
+    align-items: center;
   }
   
 

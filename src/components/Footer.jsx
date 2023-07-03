@@ -36,7 +36,7 @@ export default function Footer(){
 
                         <a className="icons" href="tel:18018152473" 
                         target="_blank">
-                            <i class="fa-solid 
+                            <i className="fa-solid 
                             fa-phone 
                             fa-2xl
                             ">
@@ -44,7 +44,7 @@ export default function Footer(){
                         </a>
 
                         <a                                        className="icons" href="mailto:snfisihetau@gmail.com" target="_blank">
-                            <i class="fa-regular
+                            <i className="fa-regular
                             fa-envelope 
                             fa-2xl
                             icons">
