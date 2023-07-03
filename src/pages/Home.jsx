@@ -46,11 +46,11 @@ export default function Main(){
 
                     <div className="video_container" id="video_container">
 
-                    <video className="sam_riding_v1 content" preload="auto" loop muted controls autoPlay={"autoplay"} src={samRiding1}></video>
+                    <video className="sam_riding_v1 content" preload="auto" loop muted controls autoPlay={"false"} src={samRiding1}></video>
 
                     <video className="sam_riding_v1 content video_margin" src={samRiding5} preload="auto" loop muted="muted" controls="controls" autoPlay={"false"}></video>
 
-                    <video className="sam_riding_v1 content video_margin" src={samRiding4} preload="auto" loop muted="muted" controls="controls" autoPlay={"falsey"}></video>
+                    <video className="sam_riding_v1 content video_margin" src={samRiding4} preload="auto" loop muted="muted" controls="controls" autoPlay={"false"}></video>
 
                     <video className="sam_riding_v1 content video_margin" src={samRiding2} preload="auto" loop muted="muted" controls="controls" autoPlay={"false"}></video>
                         
