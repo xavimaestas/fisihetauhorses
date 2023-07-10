@@ -25,7 +25,7 @@ export default function MeetHorses(){
 
         <div className="meet-horses-container">
 
-            <img className="meet-horse-img" alt="A man riding a brown horse in a wooded area, wearing a blue sweater and brown cowboy hat." src={meethorses2}></img>
+            <img className="meet-horse-img" alt="An orange horse in a horse pen in the forest, eating hay on the ground." src={meethorses3}></img>
 
             <div className="meet-horses-text">
                 <h4>About Horse 2</h4>
@@ -40,7 +40,7 @@ export default function MeetHorses(){
 
         <div className="meet-horses-container">
 
-            <img className="meet-horse-img" alt="An orange horse in a horse pen in the forest, eating hay on the ground." src={meethorses3}></img>
+            <img className="meet-horse-img" alt="A man riding a brown horse in a wooded area, wearing a blue sweater and brown cowboy hat." src={meethorses2}></img>
 
             <div className="meet-horses-text meet-horses-bottom">
                 <h4>About Horse 3</h4>
