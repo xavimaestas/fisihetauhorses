@@ -23,14 +23,14 @@ export default function Header(){
                     
                 </div>
 
-                <div className="drop_down">
+                {/* <div className="drop_down">
                 <i className="fa-solid fa-bars"></i>
                 <div className="drop_down_content">
                     <NavLink className="navLink" to="/meetthehorses" >MEET THE HORSES</NavLink>
                     <NavLink className="navLink" to="/pricing" >PRICING & BOOKING</NavLink>
                     <NavLink className="navLink" to="/abouttheowner">ABOUT THE OWNER</NavLink>
                 </div>
-                </div>    
+                </div>     */}
 
           
 

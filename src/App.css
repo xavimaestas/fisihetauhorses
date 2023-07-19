@@ -7,7 +7,8 @@ body {
   padding: 0; 
   background-color: white; 
   color: #212427;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-width: 520px;
 }
 
 p {
@@ -15,8 +16,8 @@ p {
   margin-top: 0.5rem;
 }
 
-.page_top_margin {
-  margin-top: 15vh; 
+.page-top-margin {
+  margin-top: 10rem; 
 }
 
 /* header */
@@ -25,7 +26,7 @@ header {
   position: fixed; 
   top: 0;
   width: 100%;
-  height: 11vh;
+  height: 15vh;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -33,6 +34,7 @@ header {
   justify-content: space-between;
   z-index: 9999;
   background-color: white;
+  border: 1px solid red;
 }
   
 
@@ -47,16 +49,29 @@ header {
   
 }
 
-.nav_container {
-  display: none;
+ /* new nav with no dropdown */
+
+ .nav_container {
+  display: flex;
+  flex-direction: column;
 }
 
-.drop_down {
+.nav_container a {
+  margin-top: 0.5rem;
+}
+
+/* old nav dropdown commented out below */
+
+/* .nav_container {
+  display: none;
+} */
+
+/* .drop_down {
   position: relative; 
   display: inline-block;
   margin-right: 1rem;
-}
-
+} */
+/* 
 .drop_down_content {
   display: none;
   position: absolute;
@@ -68,15 +83,15 @@ header {
   padding: 0.5rem 0;
   font-size: 0.9rem;
 
-}
+} */
 
-.drop_down_content a {
+/* .drop_down_content a {
   margin: 0.4rem 0 0 0.4rem;
   color: black;
   text-decoration: none;
-}
+} */
 
-.drop_down_content a:hover {
+/* .drop_down_content a:hover {
   color: gray; 
 }
 
@@ -84,7 +99,7 @@ header {
   display:flex; 
   flex-direction: column;
   align-items: flex-start;
-}
+} */
 
 
 .navLink {
@@ -197,7 +212,7 @@ header {
 }
 
 /* Owner */
-.about_owner_container {
+.about-owner-container {
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -207,10 +222,8 @@ header {
 .owner1 {
   width: 80vw;
   max-width: 300px;
-  max-height: 65vh;
-  min-height: 300px;
-  object-fit: cover;
-  margin: 0 auto;
+  min-height: 360px;
+  object-fit: contain;
 }
 
 .about-owner-text {
@@ -274,7 +287,6 @@ header {
   width: 80vw;
   max-width: 400px;
   object-fit: cover;
-  margin: 0 auto;
 
 }
 
@@ -387,7 +399,8 @@ footer {
 
   /* meet horses page large screens */
 
-  .meet-horses-page-container {
+  .meet-horses-page-container,
+  .about-owner-container {
     margin-bottom: 10rem;
     min-width: 590px;
     display: flex;
@@ -416,10 +429,11 @@ footer {
 
 
   .meet-horses-text {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: justify;
-    
   }
+
+ 
 
   .last-meet-horse-img {
     margin-bottom: 3rem;
@@ -428,8 +442,44 @@ footer {
   .swap-order {
     order: -1;
   }
+
+ /* about owner */
+
+ .about-owner-container {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .about-owner-text {
+  font-size: 1.2rem;
+  margin: 0;
+ }
  
-  
+  /* pricing */
+
+  .pricing-container {
+    height: 90vh;
+    width: 90vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10rem;
+    margin: 10rem auto;
+    
+  }
+
+  .price-img {
+    width: 40vw;
+    max-width: 400px;
+    object-fit: cover;
+    margin: 0;
+  }
+
+
 
 
 }

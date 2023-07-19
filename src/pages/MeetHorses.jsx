@@ -5,11 +5,11 @@ import meethorses3 from "../assets/meethorses3.jpg"
 export default function MeetHorses(){
     return (
 
-<div className="page_top_margin meet-horses-page-container" >
+<div className="page-top-margin meet-horses-page-container" >
 
         {/* Horse 1 */}
 
-        <div className="page_top_margin meet-horses-container">
+        <div className="page-top-margin meet-horses-container">
 
             <img className="meet-horse-img" alt="a saddled horse, tied up to a tree, looking at the camera, in a desert forest." src={meethorses1}></img>
 
