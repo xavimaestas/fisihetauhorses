@@ -1,5 +1,6 @@
 
 import samCanyon from '../assets/sam-canyon.jpeg'
+import newBg from '../assets/newbg.png'
 import samRiding1 from '../assets/sam-riding1.mp4'
 import samRiding2 from '../assets/sam-riding2.mp4'
 import samRiding4 from '../assets/sam-riding4.mp4'
@@ -12,7 +13,7 @@ export default function Main(){
     <div className="main_div_component">
 
         <section className="main_content">
-            <img  className="main_image"alt="horse running" src={samCanyon}></img>
+            <img  className="main_image"alt="close up of two horses" src={newBg}></img>
             <h1 className="image_title"></h1> 
         </section>
 
