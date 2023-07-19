@@ -243,13 +243,14 @@ header {
 
 /* Meet Horses */
 
+
 .meet-horses-container {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  
 }
 
 .meet-horse-img {
@@ -257,7 +258,7 @@ header {
   max-width: 400px;
   max-height: 75vw;
   object-fit: cover;
-  margin: 0 auto;
+
 }
 
 .meet-horses-text {

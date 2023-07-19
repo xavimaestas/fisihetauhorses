@@ -29,7 +29,7 @@ export default function MeetHorses(){
 
             <div className="meet-horses-text swap-order">
                 <h4>Sunshine</h4>
-                <p>The boss, smart. Sunshine has striking blue and brown eyes, matching her personality perfectly.  </p>
+                <p>The boss, smart and swift. Sunshine has striking blue and brown eyes, matching her personality perfectly. She walks out like a Missouri Fox Trotter however she is a Papered American Painthorse. Sunshine stands at 16.1 hands tall and was sired in Lehi, Utah. She is 12 years of age. </p>
             </div>
 
         </div>
@@ -43,8 +43,8 @@ export default function MeetHorses(){
             <img className="meet-horse-img last-meet-horse-img" alt="A man riding a brown horse in a wooded area, wearing a blue sweater and brown cowboy hat." src={meethorses2}></img>
 
             <div className="meet-horses-text meet-horses-bottom">
-                <h4>About Horse 3</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas consequuntur labore itaque sunt fugiat. Optio aliquam doloribus deleniti ab ullam placeat minima, dolorum amet odio laboriosam quo corrupti molestias ea veniam deserunt est nam odit temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi libero nostrum, accusantium tempora ad atque quis nisi facere fugiat tenetur quibusdam, deserunt dolores quos itaque qui veniam dicta odit voluptas? </p>
+                <h4>Nocona</h4>
+                <p>Nebraska boy sold to the Lone Star state, and then finally settling in the Rocky Mountains. He is a Papered American Quarterhorse standing at an astounding 16.2 hands. Nocona is kind and can climb steep terrain like a freight train.</p>
             </div>
 
         </div>
