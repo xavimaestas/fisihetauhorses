@@ -9,7 +9,7 @@ export default function AboutOwner(){
 
         <div className="about-owner-text">
             <h4>About The Owner</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas consequuntur labore itaque sunt fugiat. Optio aliquam doloribus deleniti ab ullam placeat minima, dolorum amet odio laboriosam quo corrupti molestias ea veniam deserunt est nam odit temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi libero nostrum, accusantium tempora ad atque quis nisi facere fugiat tenetur quibusdam, deserunt dolores quos itaque qui veniam dicta odit voluptas? </p>
+            <p>Sam is a first generation horseman. He spent two seasons in East Zion and one season in Park City, taking horseback rides through some of Utah's most impressive landscapes. He is an experienced all terrain horseman. Traveling through terrain in all seasons of the year. Sam is a licensed real estate professional and specializes in commerical investment properties and homes for his family and friends. The word "genuine" describes him well. With Sam you will have a personal experience everytime. </p>
         </div>
 
      
