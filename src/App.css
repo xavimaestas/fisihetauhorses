@@ -17,7 +17,7 @@ p {
 }
 
 .page-top-margin {
-  margin-top: 15rem; 
+  margin-top: 10rem; 
 }
 
 /* header */
@@ -27,7 +27,8 @@ header {
   top: 0;
   width: 100%;
   min-width: 280px;
-  height: 25vh;
+  height: 16vh;
+  min-height: 150px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -43,7 +44,7 @@ header {
   font-family: 'Aguafina Script', cursive;
   font-weight: bold;
   font-size: 2.8rem;
-  margin: 1rem 0 0 2rem;
+  margin: 0.5rem 0 0 2rem;
   color: #212427;
   text-decoration: none;
   display: flex;
@@ -54,16 +55,19 @@ header {
  /* new nav with no dropdown */
 
  .nav_container {
-  width: 40vw;
+  margin: 0 1rem 0 0;
+  width: 50vw;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: right;
+  justify-content: center;
 }
 
 .nav_container a {
-  margin: 0;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
+  
 }
+
 
 /* old nav dropdown commented out below */
 
@@ -217,15 +221,16 @@ header {
 
 /* Owner */
 .about-owner-container {
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .owner1 {
   width: 80vw;
-  max-width: 300px;
+  max-width: 280px;
   min-height: 360px;
   object-fit: contain;
 }
@@ -237,7 +242,6 @@ header {
   align-items: left;
   width: 80vw;
   max-width: 300px;
-  
   margin-bottom: 10rem;
 }
 
@@ -279,8 +283,32 @@ header {
   margin-bottom: 7rem;
 }
 
-.coltImg {
-  object-fit: contain; 
+.colt-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.colt-text-container {
+  width: 80vw;
+  max-width: 400px;
+}
+
+.colt-image-container {
+  text-align: center;
+}
+
+
+
+.colt-img {
+  width: 80vw;
+  max-width: 400px;
+  max-height: 75vw;
+  object-fit: cover;
+
 }
 
 /* Pricing */
@@ -378,8 +406,70 @@ footer {
 
 /* media queries */
 
+
+
+
+@media (min-width:800px){ 
+ 
+ /* about owner */
+
+ .about-owner-container {
+  
+  width: 70vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-owner-text {
+  font-size: 1.2rem;
+  margin: 0;
+  text-align: center;
+  max-width: 550px;
+  max-height: 450px;
+}
+
+.about-owner-text p {
+ 
+  max-height: 350px;
+}
+
+.owner1 {
+margin-right: 2rem;
+}
+
+
+}
+
+
+
+
 @media (min-width:1100px){
 
+  header {
+    height: 12vh;
+  }
+
+  .page-top-margin {
+    margin-top: 8rem;
+  }
+
+  .nav_container {
+    display: block;
+    align-items: center;
+    width: 70vw;
+  }
+
+  .nav_container a {
+    margin-right: 1rem;
+  }
+
+  .main_title {
+    width: 30vw;
+    font-size: 3.5rem;
+  }
   
 
   .video_container {
@@ -404,15 +494,11 @@ footer {
     display: none;
   }
 
-  .nav_container {
-    display: block;
-    align-items: center;
-  }
+ 
 
   /* meet horses page large screens */
 
-  .meet-horses-page-container,
-  .about-owner-container {
+  .meet-horses-page-container {
     margin-bottom: 10rem;
    
     display: flex;
@@ -455,21 +541,7 @@ footer {
     order: -1;
   }
 
- /* about owner */
 
- .about-owner-container {
-    width: 70vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
- }
-
- .about-owner-text {
-  font-size: 1.2rem;
-  margin: 0;
- }
  
   /* pricing */
 
@@ -506,6 +578,23 @@ footer {
   .pricing-list li {
     margin-right: 2rem;
   }
+
+  /* Colt Photos */
+
+  .colt-container {
+    text-align: center;
+  }
+
+  .colt-image-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .colt-img {
+    width: 20vw;
+    margin-right: 2rem;
+  }
+
 
 
 

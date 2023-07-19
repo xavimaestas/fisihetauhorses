@@ -3,7 +3,7 @@ import owner1 from '../assets/owner1.jpg'
 export default function AboutOwner(){
     return (
 
-    <div className="page-top-margin about-owner-container">
+    <div className=" about-owner-container">
 
         <img className="owner1" alt="man with cowboy hat" src={owner1}></img>
 
