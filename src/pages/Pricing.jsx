@@ -47,11 +47,22 @@ export default function Pricing(){
                 </li>
             </ul>
 
-        </div>
+            <ul className="contact_main">
+                        <li><strong>Company Name:</strong> Acme Corporation</li>
+                        <li><strong>Address:</strong> 123 Main Street, Anytown, USA</li>
+                        <li><strong>Phone:</strong> (555) 123-4567</li>
+                        <li><strong>Fax:</strong> (555) 987-6543</li>
+                        <li><strong>Email:</strong> info@acmecorp.com</li>
+                        <li><strong>Website:</strong> <a href="http://www.acmecorp.com">www.acmecorp.com</a>
+                        </li>
+                    </ul>
+            <a  href="https://fareharbor.com/embeds/book/fisihetauhorses/items/480785/?full-items=yes&flow=1006891">Fareharbor</a>
 
+        </div>
+        <div><script src="https://fareharbor.com/embeds/script/items/fisihetauhorses/?full-items=yes&amp;fallback=simple&flow=1006891"></script></div>
      
 
-        
+      
     </div>
       
         

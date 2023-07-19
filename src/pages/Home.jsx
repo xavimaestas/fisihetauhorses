@@ -23,20 +23,12 @@ export default function Main(){
                 <div className="experience" id="experience">
 
                     <div className="experience_text">
-                    <h4>The Experience</h4>
-                    <p>Join us on breathtaking horseback adventures through majestic landscapes. Experience the thrill of galloping along mountain trails, meandering through wildflower-filled meadows, and exploring ancient forests. All skill levels are welcome as we discover the wonders of nature together. Saddle up and let your spirit roam free as we embark on unforgettable equestrian journeys. </p>
+                    <h4>Let's Ride!</h4>
+                    <p>Join us for an authentic horse back experience in the majestic landscapes of Utah. Learn how to care, saddle and ride in a private and genuine setting. Book an advanced lesson or event and invite these horses to your party or proposal.</p>
                     </div>
 
                     <div className="experience_text">
-                    <ul className="contact_main">
-                        <li><strong>Company Name:</strong> Acme Corporation</li>
-                        <li><strong>Address:</strong> 123 Main Street, Anytown, USA</li>
-                        <li><strong>Phone:</strong> (555) 123-4567</li>
-                        <li><strong>Fax:</strong> (555) 987-6543</li>
-                        <li><strong>Email:</strong> info@acmecorp.com</li>
-                        <li><strong>Website:</strong> <a href="http://www.acmecorp.com">www.acmecorp.com</a>
-                        </li>
-                    </ul>
+                    
 
                     </div>
                    
