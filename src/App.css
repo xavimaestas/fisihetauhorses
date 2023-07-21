@@ -101,7 +101,7 @@ header {
 }
 
 .main_title:hover {
-  animation: titleMovement 2s ease 0s infinite normal forwards;
+  animation: titleMovement 2s ease 0s 1 normal forwards;
 }
 
  /* new nav with no dropdown */
