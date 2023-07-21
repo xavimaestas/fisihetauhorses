@@ -445,6 +445,50 @@ header {
   margin-bottom: 2rem;
 }
 
+.fareharbor-card {
+  width: 80vw;
+  max-width: 320px;
+  min-width: 280px;
+  height: 55vh; 
+  max-height: 350px;
+  background-color: #E0E2DF;
+  box-shadow: 9px 9px 13px #ADB1A9;
+  border-radius: 5px;
+}
+
+.fareharbor-img {
+  width: 80vw;
+  max-width: 320px;
+  min-width: 280px;
+  max-height: 200px;
+  object-fit: cover;
+  object-position: 0 10%;
+  border-radius: 5px;
+}
+
+.fareharbor-title {
+  margin-top: 0.25rem;
+}
+
+
+
+.fH-btn-price-container {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  height: 30px;
+}
+
+.fareharbor-btn {
+  text-decoration: none;
+  color:#212427;
+  padding: 5px 20px;
+  background-color: #A6A2A2;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
 /* footer */
 
 footer {
@@ -452,7 +496,7 @@ footer {
   bottom: 0;
   width: 100%;
   height: 10vh;
-  background-color: #D0D0B3;
+  background-color: #CFD2CD;
   z-index: 9999;
 }
 
