@@ -20,6 +20,54 @@ p {
   margin-top: 10rem; 
 }
 
+
+/* animations */
+
+/* blinking drop animation, used on chevron arrows */
+
+@keyframes dropBlink {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
+/* Home title movement */
+
+@keyframes titleMovement {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(1.2deg);
+	}
+}
+
 /* header */
 
 header {
@@ -44,12 +92,16 @@ header {
   font-family: 'Aguafina Script', cursive;
   font-weight: bold;
   font-size: 2.8rem;
-  margin: 0.5rem 0 0 2rem;
+  margin: 0.5rem 0 0 3rem;
   color: #212427;
   text-decoration: none;
   display: flex;
   width: 40vw;
   
+}
+
+.main_title:hover {
+  animation: titleMovement 2s ease 0s infinite normal forwards;
 }
 
  /* new nav with no dropdown */
@@ -139,8 +191,8 @@ header {
 
 .main_image {
   object-fit: contain;
-  width: 100%;
-  height: 50vh;
+  width: 80vw;
+  max-width: 500px;
   padding: 0;
   object-position: 50% 60%;
 
@@ -171,8 +223,13 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: inherit;
+  width: 80vw;
   margin: 3rem auto; 
+}
+
+.experience_text {
+  margin-top: 2rem;
+  max-width: 500px;
 }
 
 .contact_main {
@@ -216,6 +273,7 @@ header {
 
 .sam_riding_v1 {
   width: 80vw;
+  max-width: 500px;
   object-fit: cover;
 }
 
@@ -226,14 +284,27 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 1350px;
 }
 
 .owner1 {
+  position: relative;
   width: 80vw;
-  max-width: 280px;
+  max-width: 320px;
   min-height: 360px;
   object-fit: contain;
+  
 }
+
+.owner2 {
+  width: 80vw;
+  max-width: 1200px;
+  min-height: 360px;
+  object-fit: cover;
+  margin: 1rem auto;
+}
+
+
 
 .about-owner-text {
   display: flex;
@@ -242,13 +313,24 @@ header {
   align-items: left;
   width: 80vw;
   max-width: 300px;
-  margin-bottom: 10rem;
+  margin: 2rem 0;
+  scroll-margin-top: 150px;
 }
 
 .about-owner-text p {
   margin-top: -0.75rem;
 }
 
+.about-owner-angles {
+  color: white;
+  position: absolute;
+  bottom: 200px;
+  animation: dropBlink 8s ease 0s infinite normal forwards;
+}
+
+.about-owner-angles:hover {
+  color: gray;
+}
 
 /* Meet Horses */
 
@@ -362,7 +444,7 @@ footer {
   bottom: 0;
   width: 100%;
   height: 10vh;
-  background-color: #d2d6db;
+  background-color: #D0D0B3;
   z-index: 9999;
 }
 
@@ -428,6 +510,7 @@ footer {
   margin: 0;
   text-align: center;
   max-width: 550px;
+  min-width: 350px;
   max-height: 450px;
 }
 
@@ -438,6 +521,18 @@ footer {
 
 .owner1 {
 margin-right: 2rem;
+}
+
+.about-owner-angles {
+  display: none;
+}
+
+.about-owner-desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6rem;
 }
 
 
@@ -470,15 +565,48 @@ margin-right: 2rem;
     width: 30vw;
     font-size: 3.5rem;
   }
+
+  
   
 
   .video_container {
-    display: none; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); 
+    gap: 20px;
+    
+    
   }
+
+  .sam_riding_v1 {
+    width: 40vw;
+    max-width: 500px;
+    object-fit: cover;
+    max-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .video_margin {
+  margin-top: 0;
+}
 
   .experience {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 80vw;
+    
+  }
+ 
+
+  .experience_text {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+  }
+
+  .experience_text p {
+    max-width: 500px;
   }
 
   .sam_horse {
@@ -486,9 +614,7 @@ margin-right: 2rem;
  
   }
 
-  .experience_text {
-    width: 35vw;
-  }
+
 
   .drop_down {
     display: none;
@@ -591,8 +717,9 @@ margin-right: 2rem;
   }
 
   .colt-img {
-    width: 20vw;
-    margin-right: 2rem;
+    width: 35vw;
+    max-width: 400px;
+    margin-right: 1rem;
   }
 
 
