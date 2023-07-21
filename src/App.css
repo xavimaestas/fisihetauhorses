@@ -296,12 +296,20 @@ header {
   
 }
 
+.about-owner-desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
 .owner2 {
   width: 80vw;
-  max-width: 1200px;
-  min-height: 360px;
+  max-width: 600px;
+  max-height: 700px;
   object-fit: cover;
-  margin: 1rem auto;
+  margin-bottom: 4rem;
 }
 
 
@@ -312,7 +320,7 @@ header {
   justify-content: center;
   align-items: left;
   width: 80vw;
-  max-width: 300px;
+  max-width: 600px;
   margin: 2rem 0;
   scroll-margin-top: 150px;
 }
@@ -324,7 +332,7 @@ header {
 .about-owner-angles {
   color: white;
   position: absolute;
-  bottom: 200px;
+  bottom: 180px;
   animation: dropBlink 8s ease 0s infinite normal forwards;
 }
 
@@ -527,12 +535,14 @@ margin-right: 2rem;
   display: none;
 }
 
-.about-owner-desktop {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 6rem;
+
+
+.owner2 {
+  max-width: 1200px;
+  min-height: 360px;
+  object-fit: cover;
+  margin: 2rem auto;
+ 
 }
 
 
