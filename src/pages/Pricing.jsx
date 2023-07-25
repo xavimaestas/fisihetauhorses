@@ -13,7 +13,7 @@ export default function Pricing(){
                     title="Adventure Ride & Horsemanship Lesson"
                     text="The All Terrain lesson will start with an hour refresher saddling getting to know your horse, and going over the basics, before setting off on our adventure. The remaining 2 hours will be spent learning to ride and exploring the surrounding area by horseback."
                     image={"https://images.unsplash.com/photo-1473252661224-1b28d29788e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80"}
-                    btn={"https://fareharbor.com/embeds/book/fisihetauhorses/items/480554/?full-items=yes&flow=1006891"}
+                    btn={"https://fareharbor.com/embeds/book/fisihetauhorses/items/480767/calendar/2023/07/?full-items=yes&flow=1006891"}
                 />
                 
                 <Card 
