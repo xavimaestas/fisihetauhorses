@@ -2,6 +2,17 @@
   box-sizing: border-box;
 }
 
+*,*:focus,*:hover{
+  outline:none;
+}
+
+img,
+video {
+  border-radius: 5px;
+}
+
+
+
 body {
   margin: 0;
   padding: 0; 
@@ -68,6 +79,30 @@ p {
 	}
 }
 
+/* fareharbor card enter */
+
+@keyframes cardEnter {
+  0% {
+    box-shadow: 9px 9px 13px #ABAB9A;
+  }
+  100% {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+
+
+}
+
+@keyframes cardLeave {
+  0% {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+  100% {
+    box-shadow: 9px 9px 13px #ABAB9A;
+  }
+
+
+}
+
 /* header */
 
 header {
@@ -100,7 +135,8 @@ header {
   
 }
 
-.main_title:hover {
+.main_title:hover,
+.main_title:focus {
   animation: titleMovement 2s ease 0s 1 normal forwards;
 }
 
@@ -233,8 +269,17 @@ header {
 }
 
 .contact_main {
+  text-align: center;
+  margin: 3rem 0 0 0;
   list-style: none;
+  padding: 0;
+  margin-bottom:10rem;
 }
+
+.contact_main h4 {
+  margin-bottom: 0.5rem;
+}
+
 
 .horse_container {
   width: 80vw;
@@ -336,8 +381,9 @@ header {
   animation: dropBlink 8s ease 0s infinite normal forwards;
 }
 
-.about-owner-angles:hover {
-  color: gray;
+.about-owner-angles:hover,
+.about-owner-angles:focus {
+  color: #A7754D;
 }
 
 /* Meet Horses */
@@ -357,6 +403,7 @@ header {
   max-width: 400px;
   max-height: 75vw;
   object-fit: cover;
+
 
 }
 
@@ -401,13 +448,20 @@ header {
 
 }
 
+.colt-nocona {
+  min-height: 535px;
+}
+
 /* Pricing */
 
-.pricing-container {
+
+
+.card-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  margin-bottom: 5rem;
 }
 
 .price-img {
@@ -424,7 +478,7 @@ header {
   align-items: left;
   width: 80vw;
   max-width: 400px;
-  margin-bottom: 10rem;
+  margin-bottom: 20rem;
 }
 
 
@@ -446,30 +500,52 @@ header {
 }
 
 .fareharbor-card {
+  position: relative;
+  margin-top: 2rem;
   width: 80vw;
   max-width: 320px;
-  min-width: 280px;
-  height: 55vh; 
-  max-height: 350px;
-  background-color: #E0E2DF;
-  box-shadow: 9px 9px 13px #ADB1A9;
+  min-width: 300px;
+  height: 80vh; 
+  max-height: 550px;
+  background-color: #E3E4DB;
+  box-shadow: 9px 9px 13px #ABAB9A;
   border-radius: 5px;
+}
+
+
+
+.cardEnter {
+  animation: cardEnter 1s ease 0s 1 normal forwards;
+}
+
+.cardLeave {
+  animation: cardLeave 1s ease 0s 1 normal forwards;
 }
 
 .fareharbor-img {
   width: 80vw;
   max-width: 320px;
-  min-width: 280px;
+  min-width: 300px;
   max-height: 200px;
   object-fit: cover;
   object-position: 0 10%;
   border-radius: 5px;
 }
 
-.fareharbor-title {
-  margin-top: 0.25rem;
+.fareharbor-card-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 1rem 1rem 1rem;
+  padding-bottom: 2rem;
+  
 }
 
+.fareharbor-title {
+  margin-bottom: 0.5rem;
+  
+}
 
 
 .fH-btn-price-container {
@@ -481,12 +557,25 @@ header {
 }
 
 .fareharbor-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   text-decoration: none;
   color:#212427;
-  padding: 5px 20px;
-  background-color: #A6A2A2;
+  padding: 8px 25px;
+  background-color: #F0D09E;
   border-radius: 5px;
   font-weight: bold;
+  width: 50vw;
+  max-width: 200px;
+  text-align: center;
+}
+
+.fareharbor-btn:hover,
+.fareharbor-btn:focus {
+  color:#F0D09E;
+  background-color: #212427;
 }
 
 /* footer */
@@ -496,7 +585,7 @@ footer {
   bottom: 0;
   width: 100%;
   height: 10vh;
-  background-color: #CFD2CD;
+  background-color: #EEE5BF;
   z-index: 9999;
 }
 
@@ -528,8 +617,10 @@ footer {
 }
 
 .icons:hover,
-.navLink:hover {
-  color: #5A6672;
+.navLink:hover,
+.icons:focus,
+.navLink:focus {
+  color: #A7754D;
   cursor: pointer;
 }
 
@@ -700,7 +791,7 @@ margin-right: 2rem;
   .meet-horse-img {
     object-fit: cover;
     min-width: 600px;
-    max-height: 365px;
+    max-height: 500px;
     margin: 0;
    
   }
@@ -726,15 +817,18 @@ margin-right: 2rem;
   /* pricing */
 
   .pricing-container {
-    height: 90vh;
+   
+    
+  }
+
+  .card-container {
+   
     width: 80vw;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
-    padding-top: 0;
-    margin: 0 auto;
-    
+    justify-content: center;
+    margin: 10rem auto 5rem auto;
   }
 
   .price-img {
@@ -757,6 +851,16 @@ margin-right: 2rem;
 
   .pricing-list li {
     margin-right: 2rem;
+  }
+  
+  .contact_main {
+    margin-bottom: 10rem;
+  }
+
+  /* fareharbor cards */
+
+  .fareharbor-card {
+    margin: 1rem;
   }
 
   /* Colt Photos */

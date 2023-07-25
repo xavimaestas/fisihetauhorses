@@ -47,7 +47,7 @@ export default function Footer(){
                             <i className="fa-regular
                             fa-envelope 
                             fa-2xl
-                            icons">
+                            ">
                             </i>
                         </a>
 

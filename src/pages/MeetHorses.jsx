@@ -79,7 +79,7 @@ export default function MeetHorses(){
                     
                     <div>
                         <h5>Baby Nocona</h5>
-                        <img className="colt-img  meet-horses-bottom" alt="Black Colt" src={coltNocona}></img>
+                        <img className="colt-img colt-nocona  meet-horses-bottom" alt="Black Colt" src={coltNocona}></img>
                     </div>
 
                   
