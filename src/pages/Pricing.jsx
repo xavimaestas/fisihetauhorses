@@ -18,7 +18,7 @@ export default function Pricing(){
                 
                 <Card 
                     title="Fundamentals Lesson"
-                    text="Discover an exciting equestrian adventure with our 1-hour Beginner Horseback Riding Lesson. Perfect for newcomers, our skilled instructors guide you through mounting, commands, and essential riding skills, fostering confidence and a harmonious connection with your horse. Unforgettable learning and exploration await!"
+                    text="Discover an exciting equestrian adventure with our 1-hour Beginner Horseback Riding Lesson. Perfect for newcomers, our skilled instructors guide you through mounting, commands, and essential riding skills, fostering confidence and a harmonious connection with your horse."
                     image={"https://images.unsplash.com/photo-1678226206688-af7daab00046?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"}
                     btn={"https://fareharbor.com/embeds/book/fisihetauhorses/items/480734/?full-items=yes&flow=1006891"}
                 />

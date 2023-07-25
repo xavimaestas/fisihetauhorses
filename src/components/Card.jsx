@@ -29,7 +29,7 @@ export default function Card(props){
                 <p>{props.text}</p>
                 
             </div>
-            <a className="fareharbor-btn" href={props.btn}>Book</a>
+            <a className="fareharbor-btn" href={props.btn} target="blank_">Book</a>
         </div>
       
    
