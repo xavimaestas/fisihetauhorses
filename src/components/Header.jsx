@@ -19,7 +19,7 @@ export default function Header(){
 
                     <NavLink className="navLink" to="/meetthehorses" >MEET THE HORSES</NavLink>
                     <NavLink className="navLink" to="/pricing" >BOOKING & CONTACT</NavLink>
-                    <NavLink className="navLink navLinke-top-margin" to="/abouttheowner">ABOUT THE COWBOY</NavLink>
+                    <NavLink className="navLink navLink-top-margin" to="/abouttheowner">ABOUT THE COWBOY</NavLink>
                     
                 </div>
 
