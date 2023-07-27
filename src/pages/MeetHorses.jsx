@@ -8,7 +8,7 @@ import coltNocona from '../assets/coltNocona.jpg'
 export default function MeetHorses(){
     return (
 
-<div className="page-top-margin meet-horses-page-container" >
+<div className="meet-horses-page-container" >
 
         {/* Horse 1 */}
 

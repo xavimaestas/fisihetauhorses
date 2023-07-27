@@ -6,7 +6,7 @@ export default function Pricing(){
     return (
         
 
-    <div className="page-top-margin pricing-container">
+    <div className="pricing-container">
 
         <div className="card-container">
         <Card 

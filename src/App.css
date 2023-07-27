@@ -28,7 +28,7 @@ p {
 }
 
 .page-top-margin {
-  margin-top: 17rem; 
+  margin-top: 12rem; 
 }
 
 
@@ -215,7 +215,7 @@ header {
 
 /* main */
 .main_div_component {
-  margin-top: 18rem;
+  margin-top: 16rem;
   margin-bottom: 12rem;
 }
 
@@ -324,7 +324,7 @@ header {
 
 /* Owner */
 .about-owner-container {
-  margin-top: 18rem;
+  margin-top: 12rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -346,7 +346,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 12rem
+  margin-bottom: 12rem;
 }
 
 .owner2 {
@@ -388,7 +388,9 @@ header {
 
 /* Meet Horses */
 
-
+.meet-horses-page-container {
+  margin-top: 12rem;
+}
 
 .meet-horses-container {
   margin-top: 2rem;
@@ -466,7 +468,7 @@ header {
 }
 
 .pricing-container {
-  margin-top: 16rem;
+  margin-top: 12rem;
   margin-bottom: 12rem;
   
 }
