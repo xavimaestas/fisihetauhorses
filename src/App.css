@@ -28,7 +28,7 @@ p {
 }
 
 .page-top-margin {
-  margin-top: 10rem; 
+  margin-top: 17rem; 
 }
 
 
@@ -215,7 +215,7 @@ header {
 
 /* main */
 .main_div_component {
-  margin-top: 12rem;
+  margin-top: 18rem;
   padding-bottom: 3rem;
 }
 
@@ -324,7 +324,7 @@ header {
 
 /* Owner */
 .about-owner-container {
-  margin-top: 10rem;
+  margin-top: 18rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -346,7 +346,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 6rem;
+  margin-bottom: 12rem
 }
 
 .owner2 {
@@ -648,7 +648,6 @@ footer {
 .navLink:focus {
   color: #BDBBB6;
   cursor: pointer;
-  border-bottom: 1px solid #BDBBB6;
 }
 
 
@@ -666,7 +665,6 @@ footer {
  /* about owner */
 
  .about-owner-container {
-  
   width: 70vw;
   display: flex;
   flex-direction: row;
@@ -798,7 +796,7 @@ margin-right: 2rem;
 
   .meet-horses-page-container {
     margin-bottom: 10rem;
-   
+    margin-top: 12rem;
     display: flex;
     flex-direction: column;
     align-items: center;
