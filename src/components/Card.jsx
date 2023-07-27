@@ -21,7 +21,13 @@ export default function Card(props){
         <div className={
             isHovered ? "fareharbor-card  cardEnter" : "fareharbor-card fareharbor-top cardLeave"} onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}>
+
             <img className="fareharbor-img" alt="close-up of two horses" src={props.image}></img>
+
+          { props.price ? <div className="fareharbor-price-container">
+                <p className="fareharbor-price">{props.price}</p>
+            </div> : null}
+            
 
             <div className="fareharbor-card-text" >
                 <h3 className="fareharbor-title">{props.title}</h3>
@@ -32,6 +38,7 @@ export default function Card(props){
             <a className="fareharbor-btn" href={props.btn} target="blank_">Book</a>
         </div>
       
+
    
       
         

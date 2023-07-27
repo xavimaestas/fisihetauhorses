@@ -464,6 +464,11 @@ header {
   margin-bottom: 5rem;
 }
 
+.pricing-container {
+  margin-top: 16rem;
+  
+}
+
 .price-img {
   width: 80vw;
   max-width: 400px;
@@ -530,6 +535,21 @@ header {
   object-fit: cover;
   object-position: 0 10%;
   border-radius: 5px;
+}
+
+
+.fareharbor-price-container {
+  position: absolute;
+  bottom: 365px;
+  left: 75%;
+  padding: 3px 13px;
+  background-color: rgb(236, 236, 234, 0.75);
+  border-radius: 5px;
+  
+}
+
+.fareharbor-price {
+  font-weight: bold;
 }
 
 .fareharbor-card-text {
@@ -823,10 +843,7 @@ margin-right: 2rem;
  
   /* pricing */
 
-  .pricing-container {
-   
-    
-  }
+  
 
   .card-container {
    
@@ -835,7 +852,7 @@ margin-right: 2rem;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin: 10rem auto 5rem auto;
+    margin: 15rem auto 5rem auto;
   }
 
   .price-img {
