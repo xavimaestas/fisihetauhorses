@@ -48,11 +48,12 @@ export default function Main(){
 
                     <video className="sam_riding_v1 content video_margin" src={samRiding1} poster={samRiding1Ph}preload="auto" loop muted="muted" controls="controls"></video>
 
+                    <video className="sam_riding_v1 content video_margin" src={samRiding6} poster={samRiding6Ph} preload="auto" loop muted="muted" controls="controls"></video>
+
                     <video className="sam_riding_v1 content video_margin" src={samRiding4} poster={samRiding4Ph} preload="auto" loop muted="muted" controls="controls"></video>
 
                     <video className="sam_riding_v1 content video_margin" src={samRiding2} poster={samRiding2Ph} preload="auto" loop muted="muted" controls="controls"></video>
 
-                    <video className="sam_riding_v1 content video_margin" src={samRiding6} poster={samRiding6Ph} preload="auto" loop muted="muted" controls="controls"></video>
                         
                     </div>
 
