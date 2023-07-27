@@ -215,7 +215,7 @@ header {
 
 /* main */
 .main_div_component {
-  margin-top: 16rem;
+  margin-top: 12rem;
   margin-bottom: 12rem;
 }
 
@@ -389,7 +389,7 @@ header {
 /* Meet Horses */
 
 .meet-horses-page-container {
-  margin-top: 12rem;
+  margin-top: 10rem;
 }
 
 .meet-horses-container {
@@ -468,7 +468,7 @@ header {
 }
 
 .pricing-container {
-  margin-top: 12rem;
+  margin-top: 10rem;
   margin-bottom: 12rem;
   
 }
