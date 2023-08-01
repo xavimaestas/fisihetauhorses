@@ -516,6 +516,7 @@ header {
   min-width: 300px;
   height: 80vh; 
   max-height: 550px;
+  min-height: 550px;
   background-color: #ECECEA;
   box-shadow: 9px 9px 13px black;
   border-radius: 5px;
@@ -567,7 +568,11 @@ header {
   justify-content: flex-end;
   padding: 0 1rem 1rem 1rem;
   padding-bottom: 2rem;
-  
+ 
+}
+
+.fareharbor-card-text p {
+  margin-bottom: 1rem;
 }
 
 .fareharbor-title {
@@ -597,6 +602,7 @@ header {
   font-weight: bold;
   width: 50vw;
   max-width: 200px;
+  min-width: 150px;
   text-align: center;
 }
 
