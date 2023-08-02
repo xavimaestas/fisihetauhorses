@@ -127,7 +127,7 @@ header {
   font-family: 'Aguafina Script', cursive;
   font-weight: bold;
   font-size: 2.8rem;
-  margin: 0.5rem 0 0 3rem;
+  margin: 0.5rem 0 0 2rem;
   color: #212427;
   text-decoration: none;
   display: flex;
@@ -759,7 +759,10 @@ margin-right: 2rem;
 
   
   
-
+   
+  /* 
+  desktop version removed per client
+  
   .video_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -767,7 +770,9 @@ margin-right: 2rem;
     gap: 20px;
     
     
-  }
+  } */
+
+  
 
   .sam_riding_v1 {
     width: 40vw;
@@ -779,7 +784,7 @@ margin-right: 2rem;
   }
 
   .video_margin {
-  margin-top: 0;
+  margin-top: 1rem;
 }
 
   .experience {
@@ -798,6 +803,7 @@ margin-right: 2rem;
 
   .experience_text p {
     max-width: 500px;
+    margin-bottom: 3rem;
   }
 
   .sam_horse {
