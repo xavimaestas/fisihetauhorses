@@ -12,8 +12,6 @@ export default function Card(props){
         setIsHovered(false);
       };
 
-      const imageClass = props.imageStyle ? props.imageStyle : 'fareharbor-img'
-
 
     return (
 
@@ -21,10 +19,10 @@ export default function Card(props){
 
 
         <div className={
-            isHovered ? "fareharbor-card  cardEnter" : "fareharbor-card fareharbor-top cardLeave"} onMouseEnter={handleMouseEnter}
+            isHovered ? "fareharbor-giftcard  cardEnter" : "fareharbor-giftcard  cardLeave"} onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}>
 
-            <img className={imageClass} alt={props.alt} src={props.image}></img>
+            <img className="fareharbor-img" alt="close-up of two horses" src={props.image}></img>
 
           { props.price ? <div className="fareharbor-price-container">
                 <p className="fareharbor-price">{props.price}</p>
@@ -37,7 +35,7 @@ export default function Card(props){
                 <p>{props.text}</p>
                 
             </div>
-            <a className="fareharbor-btn" href={props.btn} target="blank_">Book</a>
+            <a className="fareharbor-btn" href={props.btn} target="blank_">Purchase</a>
         </div>
       
 

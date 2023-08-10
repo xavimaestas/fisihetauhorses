@@ -268,16 +268,34 @@ header {
   max-width: 500px;
 }
 
-.contact-main {
-  text-align: center;
-  margin: 3rem 0 0 0;
-  list-style: none;
-  padding: 0;
-  margin-bottom:10rem;
-}
+
 
 .contact-main h4 {
   margin-bottom: 0.5rem;
+}
+
+.booking-fine-print {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+.booking-fine-print span {
+ font-weight: bold;
+}
+
+.pricing-container-discount,
+.booking-fine-print,
+.contact-main {
+  width: 70vw;
+  margin: 3rem auto 0 auto;
+}
+
+.contact-main {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10rem;
 }
 
 
@@ -465,6 +483,7 @@ header {
   max-width: 400px;
 }
 
+
 /* Pricing */
 
 
@@ -474,13 +493,18 @@ header {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .pricing-container {
-  margin-top: 10rem;
-  margin-bottom: 12rem;
+  margin-top: 13rem;
+  margin-bottom: 4rem;
   
+}
+
+.pricing-container-discount {
+  text-align: center;
+  margin-bottom: 0;
 }
 
 .price-img {
@@ -532,6 +556,21 @@ header {
   border-radius: 5px;
 }
 
+.fareharbor-giftcard {
+  position: relative;
+  margin-top: 3.5rem;
+  width: 90vw;
+  max-width: 400px;
+  min-width: 300px;
+  height: 80vh; 
+  max-height: 350px;
+  min-height: 350px;
+  background-color: #ECECEA;
+  box-shadow: 9px 9px 13px black;
+  border-radius: 5px;
+
+}
+
 
 
 .cardEnter {
@@ -548,9 +587,32 @@ header {
   min-width: 300px;
   max-height: 200px;
   object-fit: cover;
-  object-position: 0 70%;
+  object-position: 0 0%;
   border-radius: 5px;
 }
+
+.meethorses1  {
+  width: 90vw;
+  max-width: 400px;
+  min-width: 300px;
+  max-height: 200px;
+  object-fit: cover;
+  object-position: 0 35%;
+  border-radius: 5px;
+}
+
+.samcanyon {
+  width: 90vw;
+  max-width: 400px;
+  min-width: 300px;
+  max-height: 200px;
+  object-fit: cover;
+  object-position: 0 35%;
+  border-radius: 5px;
+}
+
+
+
 
 
 .fareharbor-price-container {
@@ -887,9 +949,9 @@ margin-right: 2rem;
     width: 80vw;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    margin: 10rem auto 5rem auto;
+    margin: 4rem auto 5rem auto;
   }
 
   .price-img {
@@ -920,9 +982,13 @@ margin-right: 2rem;
 
   /* fareharbor cards */
 
-  .fareharbor-card {
+  .fareharbor-card, 
+  .fareharbor-giftcard {
     margin: 1rem;
   }
+
+  
+
 
   /* Colt Photos */
 

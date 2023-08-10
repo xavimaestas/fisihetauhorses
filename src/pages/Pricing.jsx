@@ -1,5 +1,10 @@
 import newbg from "../assets/newbg.png"
+import meethorses1 from "../assets/meethorses1.jpg"
+import meethorses2 from "../assets/meethorses2.jpg"
+import samcanyon from "../assets/sam-canyon.jpeg"
+import contactcard from "../assets/contactcard.jpg"
 import Card from "../components/Card"
+import GiftCard from "../components/GiftCard"
 
 export default function Pricing(){
 
@@ -7,6 +12,8 @@ export default function Pricing(){
         
 
     <div className="pricing-container">
+
+        <h3 className="pricing-container-discount">Book via email to save 6%!</h3>
 
         <div className="card-container">
                 <Card 
@@ -19,9 +26,10 @@ export default function Pricing(){
                     <br/>
                     Please Note: Maximum capacity of 2 riders. Single rider bookings will be charged an additional $50. Age minimum +14 and weight limit of 250lbs. All minors must be accompanied by an adult.
                     </div>}
-                    image={"https://images.unsplash.com/photo-1473252661224-1b28d29788e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80"}
+                    image={meethorses1}
                     btn={"https://fareharbor.com/embeds/book/fisihetauhorses/items/480767/calendar/2023/07/?full-items=yes&flow=1006891"}
                     price={"$150"}
+                    imageStyle="meethorses1"
                 />
 
                 <Card 
@@ -34,7 +42,7 @@ export default function Pricing(){
                         <br/>
                         Please Note: Base rate for 1 horse, for additional horses or a longer duration please call for additional pricing. Age minimum +2 and weight limit of 250lbs. All minors must be accompanied by an adult.
                         </div>}
-                    image={"https://images.unsplash.com/photo-1604566076263-46e993ed8f26?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"}
+                    image={meethorses2}
                     btn={"https://fareharbor.com/embeds/book/fisihetauhorses/items/480554/?full-items=yes&flow=1006891"}
                     price={"$250"}
                 />
@@ -49,9 +57,10 @@ export default function Pricing(){
                     <br/>
                     Please Note: Maximum capacity of 2 riders. Age minimum +18 and weight limit of 250lbs. Photographer not included, but available upon request. Call for additional pricing.
                     </div>}
-                    image={"https://images.unsplash.com/photo-1591211263346-a660635b71d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"}
+                    image={newbg}
                     btn={"https://fareharbor.com/embeds/book/fisihetauhorses/items/480785/?full-items=yes&flow=1006891"}
                     price={"$500"}
+                    
                 />
                 
                 <Card 
@@ -64,29 +73,43 @@ export default function Pricing(){
                     <br/>
                     Please Note: Maximum capacity of 2 riders, single rider bookings will be charged an additional $25. Age minimum +6 and weight limit of 250lbs. All minors must be accompanied by an adult.
                     </div>}
-                    image={"https://images.unsplash.com/photo-1678226206688-af7daab00046?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"}
+                    image={samcanyon}
                     btn={"https://fareharbor.com/embeds/book/fisihetauhorses/items/480734/?full-items=yes&flow=1006891"}
                     price={"$75"}
+                    imageStyle="samcanyon"
                 />
              
                 
                
                 
-                <Card 
+                <GiftCard 
                     title="Gift Cards"
-                    text="Bestow the joy of horse riding with a Gift Card. Let them saddle up for an unforgettable equestrian adventure and create cherished memories that gallop with them forever!"
-                    image={"https://images.unsplash.com/photo-1598711033236-3e0b403a14e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"}
+                    image={contactcard}
                     btn={"https://fareharbor.com/embeds/book/fisihetauhorses/items/480824/?full-items=yes&flow=1006891"}
                     price={null}
                 />
 
+        </div>
+
+        <div className="booking-fine-print">
+                       <span>Please Note:</span> 
+                       <p>If your intended booking date(s) show no availability,
+                        contact for possible special accomodations.
+                        <br/>
+                        <br/>
+                        These prices for the Greater Salt Lake area. Contact for 
+                        pricing beyond the Greater Salt Lake area.
+                        <br/>
+                        <br/>
+                        Legal guardian signatures will be required for all minors.
+                       </p>
         </div>
                 
         <ul className="contact-main">
                         <h4>Contact Us</h4>
                         <li>(801) 815-2573</li>
                         <li>snfisihetau@gmail.com</li>
-                    </ul>
+        </ul>
             
 
     </div>
