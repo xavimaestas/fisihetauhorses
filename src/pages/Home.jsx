@@ -15,44 +15,50 @@ import samRiding6Ph from '../assets/samRiding6Ph.jpg'
 export default function Main(){
     return (
 
-    <div className="main_div_component">
+    <div className="main-div-component">
 
     
 
-        <section className="all_info" id="all_info">
+        <section className="all-info" id="all-info">
             
 
-            <div className="bio_container" id="bio_container">
+            <div className="bio-container" id="bio-container">
                 {/* <div className="experience" id="experience">
-                    <img  className="main_image"alt="close up of two horses" src={newBg}></img>
-                    <div className="experience_text">
+                    <img  className="main-image"alt="close up of two horses" src={newBg}></img>
+                    <div className="experience-text">
                         <h4>Let's Ride!</h4>
                         <p>Join us for an authentic horse back experience in the majestic landscapes of Utah. Learn how to care, saddle and ride in a private and genuine setting. Book an advanced lesson or event and invite these horses to your party or proposal.</p>
                     </div>
 
                    
-                    <img className="sam_horse " alt="horse" src={samHorse}></img>
+                    <img className="sam-horse " alt="horse" src={samHorse}></img>
                 </div> */}
-                <div className="horse_container">
+                <div className="horse-container">
 
-                    <div className="video_container" id="video_container">
+                    <div className="video-container" id="video-container">
 
-                    <img  className="sam_riding_v1"alt="close up of two horses" src={newBg}></img>
+                    <h3 className="horse-container-tagline">“No hour of life is wasted that is spent in the saddle.” – Winston Churchill</h3>
 
-                    <div className="experience_text">
+                    <img  className="sam-riding-v1"alt="close up of two horses" src={newBg}></img>
+
+                    <div className="experience-text">
                         <h2>Let's Ride!</h2>
-                        <p>Join us for an authentic horse back experience in the majestic landscapes of Utah. Learn how to care, saddle and ride in a private and genuine setting. Book an advanced lesson or event and invite these horses to your party or proposal.</p>
+                        <p>Join us for an authentic horseback experience in the impressive landscapes of Utah. Learn how to care for, saddle and ride with these majestic creatures in a private and authentic setting.
+                        <br/>
+                        <br/>
+                        Book an Adventure Ride and Horsemanship Lesson, a Fundamentals Horseback Riding Lesson, or invite these horses to your party, event, or proposal.
+                        </p>
                     </div>
 
-                    <video className="sam_riding_v1 content video_margin" preload="auto" loop muted controls src={samRiding5} poster={samRiding5Ph}></video>
+                    <video className="sam-riding-v1 content video-margin" preload="auto" loop muted controls src={samRiding5} poster={samRiding5Ph}></video>
 
-                    <video className="sam_riding_v1 content video_margin" src={samRiding1} poster={samRiding1Ph}preload="auto" loop muted="muted" controls="controls"></video>
+                    <video className="sam-riding-v1 content video-margin" src={samRiding1} poster={samRiding1Ph}preload="auto" loop muted="muted" controls="controls"></video>
 
-                    <video className="sam_riding_v1 content video_margin" src={samRiding6} poster={samRiding6Ph} preload="auto" loop muted="muted" controls="controls"></video>
+                    <video className="sam-riding-v1 content video-margin" src={samRiding6} poster={samRiding6Ph} preload="auto" loop muted="muted" controls="controls"></video>
 
-                    <video className="sam_riding_v1 content video_margin" src={samRiding4} poster={samRiding4Ph} preload="auto" loop muted="muted" controls="controls"></video>
+                    <video className="sam-riding-v1 content video-margin" src={samRiding4} poster={samRiding4Ph} preload="auto" loop muted="muted" controls="controls"></video>
 
-                    <video className="sam_riding_v1 content video_margin" src={samRiding2} poster={samRiding2Ph} preload="auto" loop muted="muted" controls="controls"></video>
+                    <video className="sam-riding-v1 content video-margin" src={samRiding2} poster={samRiding2Ph} preload="auto" loop muted="muted" controls="controls"></video>
 
                         
                     </div>

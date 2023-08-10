@@ -3,13 +3,13 @@ import {HashLink as Link} from 'react-router-hash-link'
 
 export default function Dropdown(){
     return (
-        <div className="drop_down">
+        <div className="drop-down">
             <i className="fa-solid fa-bars"></i>
-            <div className="drop_down_content">
+            <div className="drop-down-content">
                 <Link to='#experience'>The Experience</Link>
                 
                 <br></br>
-                <Link to='#video_container'>Riding Content</Link>
+                <Link to='#video-container'>Riding Content</Link>
             </div>
         
         </div>

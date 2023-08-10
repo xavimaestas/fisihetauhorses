@@ -1,15 +1,15 @@
 export default function Footer(){
     return (
         <footer>
-            <div className="footer_container">
+            <div className="footer-container">
            
            
            
 
-            <div className="social_icons">
+            <div className="social-icons">
                        
                         <a className="icons" 
-                        href="https://instagram.com/snfisihetau" target="_blank">
+                        href="https://instagram.com/snfisihetau" target="-blank">
                             <i className="
                             fa-brands 
                             fa-instagram 
@@ -18,7 +18,7 @@ export default function Footer(){
                         </a>
                         
                         <a className="icons" 
-                        href="https://www.facebook.com/snfisihetau" target="_blank">
+                        href="https://www.facebook.com/snfisihetau" target="-blank">
                             <i className="
                             fa-brands 
                             fa-facebook
@@ -27,7 +27,7 @@ export default function Footer(){
                         </a>
 
                         <a className="icons" 
-                        href="https://tiktok.com/@samuelnfisihetau" target="_blank">
+                        href="https://tiktok.com/@samuelnfisihetau" target="-blank">
                             <i className="fa-brands 
                             fa-tiktok
                             fa-2xl
