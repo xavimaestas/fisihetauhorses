@@ -13,7 +13,7 @@ export default function Pricing(){
 
     <div className="pricing-container">
 
-        <h3 className="pricing-container-discount">Book via email to save 6%!</h3>
+       
 
         <div className="card-container">
                 <Card 
@@ -26,14 +26,14 @@ export default function Pricing(){
                     <br/>
                     Please Note: Maximum capacity of 2 riders. Single rider bookings will be charged an additional $50. Age minimum +14 and weight limit of 250lbs. All minors must be accompanied by an adult.
                     </div>}
-                    image={meethorses1}
+                    image={meethorses2}
                     btn={"https://fareharbor.com/embeds/book/fisihetauhorses/items/480767/calendar/2023/07/?full-items=yes&flow=1006891"}
                     price={"$150"}
-                    imageStyle="meethorses1"
+                   
                 />
 
                 <Card 
-                    title="Horses for Unforgettable Events"
+                    title="Invite Horse(s) to Your Event"
                     text={<div>This unique offering focuses on creating a calm and   interactive environment where children and adults alike can sit with/on a gentle and majestic horse. It's a great option for those who wish to engage with these magnificent creatures in a more relaxed setting without riding independently. Your guests can also be hand-led around via horseback. Capture these        precious moments through photos in a safe, interactive opportunity creating unforgettable memories. Book these horses for your next event!
                         <br/>
                         <br/>
@@ -42,9 +42,10 @@ export default function Pricing(){
                         <br/>
                         Please Note: Base rate for 1 horse, for additional horses or a longer duration please call for additional pricing. Age minimum +2 and weight limit of 250lbs. All minors must be accompanied by an adult.
                         </div>}
-                    image={meethorses2}
+                    image={meethorses1}
                     btn={"https://fareharbor.com/embeds/book/fisihetauhorses/items/480554/?full-items=yes&flow=1006891"}
                     price={"$250"}
+                     imageStyle="meethorses1"
                 />
 
                 <Card 
@@ -93,7 +94,11 @@ export default function Pricing(){
 
         <div className="booking-fine-print">
                        <span>Please Note:</span> 
-                       <p>If your intended booking date(s) show no availability,
+                       <p>
+                        An additional 6% charge will be applied to online bookings.
+                        <br/>
+                        <br/>
+                        If your intended booking date(s) show no availability,
                         contact for possible special accomodations.
                         <br/>
                         <br/>
@@ -101,7 +106,7 @@ export default function Pricing(){
                         pricing beyond the Greater Salt Lake area.
                         <br/>
                         <br/>
-                        Legal guardian signatures will be required for all minors.
+                        Legal guardians will be required to sign for all participating minors.
                        </p>
         </div>
                 
