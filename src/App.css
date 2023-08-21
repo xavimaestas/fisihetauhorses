@@ -356,7 +356,8 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1350px;
+  width: 80vw;
+  max-width: 1000px;
 }
 
 .owner1-angles-container {
@@ -772,13 +773,11 @@ footer {
 
  .about-owner-container {
   margin-top: 10rem;
-  width: 70vw;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-around;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: space-between;
+ 
 }
 
 .about-owner-text {
@@ -796,9 +795,7 @@ footer {
   max-height: 350px;
 }
 
-.owner1 {
-margin-right: 3rem;
-}
+
 
 .about-owner-angles {
   display: none;
