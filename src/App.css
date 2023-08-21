@@ -112,6 +112,7 @@ header {
   min-width: 280px;
   height: 25vh;
   min-height: 150px;
+  max-height: 175px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -215,7 +216,7 @@ header {
 
 /* main */
 .main-div-component {
-  margin-top: 14rem;
+  margin-top: 13rem;
   margin-bottom: 12rem;
 }
 
@@ -350,7 +351,7 @@ header {
 
 /* Owner */
 .about-owner-container {
-  margin-top: 14rem;
+  margin-top: 13rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -358,8 +359,19 @@ header {
   max-width: 1350px;
 }
 
-.owner1 {
+.owner1-angles-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
+  width: 80vw;
+  max-width: 320px;
+  margin: 0;
+}
+
+.owner1 {
+
   width: 80vw;
   max-width: 320px;
   min-height: 360px;
@@ -385,6 +397,8 @@ header {
 
 
 
+
+
 .about-owner-text {
   display: flex;
   flex-direction: column;
@@ -401,9 +415,11 @@ header {
 }
 
 .about-owner-angles {
-  color: white;
+  color: black;
   position: absolute;
-  bottom: 180px;
+  bottom: 75%;
+  right: 42%;
+  
   animation: dropBlink 8s ease 0s infinite normal forwards;
 }
 
@@ -497,7 +513,7 @@ header {
 }
 
 .pricing-container {
-  margin-top: 10rem;
+  margin-top: 9rem;
   margin-bottom: 4rem;
   
 }
@@ -621,7 +637,7 @@ header {
   align-items: center;
   position: absolute;
   bottom: 620px;
-  left: 72%;
+  left: 78%;
   padding: 8px 13px;
   background-color: rgb(236, 236, 234, 0.75);
   border-radius: 5px;
@@ -755,11 +771,12 @@ footer {
  /* about owner */
 
  .about-owner-container {
-  margin-top: 12rem;
+  margin-top: 10rem;
   width: 70vw;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
 }
@@ -780,7 +797,7 @@ footer {
 }
 
 .owner1 {
-margin-right: 2rem;
+margin-right: 3rem;
 }
 
 .about-owner-angles {
@@ -808,7 +825,7 @@ margin-right: 2rem;
 
 
   .main-div-component {
-    margin: 12rem 0 12rem 0;
+    margin: 10rem 0 12rem 0;
   }
 
 
@@ -878,7 +895,7 @@ margin-right: 2rem;
 
   .experience-text p {
     max-width: 500px;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   .sam-horse {
@@ -946,12 +963,43 @@ margin-right: 2rem;
 
   .card-container {
    
-    width: 80vw;
+    width: 90vw;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
     margin: 4rem auto 5rem auto;
+  }
+
+  .fareharbor-card {
+    max-width: 450px;
+    max-height: 700px;
+    min-height: 700px;
+    
+  }
+
+  .fareharbor-price-container {
+   
+    bottom: 490px;
+    left: 80%;
+    
+  }
+
+  .fareharbor-img,
+  .samcanyon,
+  .meethorses1 {
+    min-width: 450px;
+    max-height: 225px;
+    object-fit: cover;
+    margin: 0;
+  }
+
+  
+
+  .fareharbor-giftcard {
+    
+    max-width: 450px;
+    
   }
 
   .price-img {

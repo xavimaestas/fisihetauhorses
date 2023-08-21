@@ -43,10 +43,14 @@ export default function Main(){
 
                     <div className="experience-text">
                         <h2>Let's Ride!</h2>
-                        <p>Join us for an authentic horseback experience in the impressive landscapes of Utah. Learn how to care for, saddle and ride with these majestic creatures in a private and authentic setting.
-                        <br/>
-                        <br/>
-                        Book an Adventure Ride and Horsemanship Lesson, a Fundamentals Horseback Riding Lesson, or invite these horses to your party, event, or proposal.
+                        <p>
+                            Learn how to care for, saddle and ride these majestic
+                            creatures in a private and authentic setting.
+                        </p>
+                        <p>
+                            Book an Adventure Ride and Horsemanship Lesson, a
+                            Fundamentals Horseback Riding Lesson, or invite these
+                            horses to your party, event, or proposal.
                         </p>
                     </div>
 

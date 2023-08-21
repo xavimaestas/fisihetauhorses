@@ -10,9 +10,11 @@ export default function AboutOwner(){
         <div className="about-owner-desktop">
 
             <div className="about-owner-container">
-
-                <img className="owner1" alt="man with cowboy hat" src={owner1}></img>
-                <HashLink to='#about-owner-text' ><i class="fa-solid fa-angles-down about-owner-angles fa-2xl"></i></HashLink>
+                <div className="owner1-angles-container">
+                    <img className="owner1" alt="man with cowboy hat" src={owner1}></img>
+                    <HashLink to='#about-owner-text' ><i class="fa-solid fa-angles-down about-owner-angles fa-2xl"></i></HashLink>
+                </div>
+                
 
                 <div className="about-owner-text" id="about-owner-text">
                     <h4 >About The Horseman</h4>

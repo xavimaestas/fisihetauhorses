@@ -18,7 +18,7 @@ export default function Pricing(){
         <div className="card-container">
                 <Card 
                     title="Adventure Ride & Horsemanship Lesson"
-                    text={<div>Discover the bliss of horseback riding as you embark on this unforgettable journey of learning and exploration in some of Utah’s most magnificent terrains. Learn how to care for, saddle, and ride with these majestic creatures. Perfect for special occasions, anniversaries, or just a great time with your friend. Let’s ride!
+                    text={<div>Discover the bliss of horseback riding. Learn how to care for, saddle, and ride these majestic creatures in native terrains and in all seasons of the year. Perfect for special occasions, anniversaries, or just a great time with your friend. Our skilled instructor(s) will guide you through saddling, proper mounting techniques, basic commands, and essential riding skills, fostering confidence and a harmonious connection with your equine partner.
                     <br/>
                     <br/>
                     Duration: Approximately 3 Hours
@@ -34,7 +34,7 @@ export default function Pricing(){
 
                 <Card 
                     title="Invite Horse(s) to Your Event"
-                    text={<div>This unique offering focuses on creating a calm and   interactive environment where children and adults alike can sit with/on a gentle and majestic horse. It's a great option for those who wish to engage with these magnificent creatures in a more relaxed setting without riding independently. Your guests can also be hand-led around via horseback. Capture these        precious moments through photos in a safe, interactive opportunity creating unforgettable memories. Book these horses for your next event!
+                    text={<div>This unique offering focuses on creating a calm and interactive environment where children and adults alike can be or sit on a gentle horse. It's a great option for those who wish to engage with these magnificent creatures in a more relaxed setting without riding independently. Your guests can also be hand-led around via horseback. Book these horses for your next event!
                         <br/>
                         <br/>
                         Duration: 1 Hour
@@ -66,7 +66,7 @@ export default function Pricing(){
                 
                 <Card 
                     title="Fundamentals Horseback Riding Lesson"
-                    text={<div>Embark on an exciting equestrian adventure with our Fundamental Riding Lesson. Designed for those new to horseback riding, this immersive experience offers a safe and supportive environment to learn the basics of horsemanship. Our skilled instructors will guide you through saddling, proper mounting techniques, basic commands, and essential riding skills, fostering confidence and a harmonious connection with your equine partner. Let’s ride!
+                    text={<div>Embark on an exciting equestrian adventure with our Fundamental Riding Lesson. Designed for those new to horseback riding, this immersive experience offers a safe and supportive environment to learn the basics of horsemanship. Our skilled instructor(s) will guide you through saddling, proper mounting techniques, basic commands, and essential riding skills, fostering confidence and a harmonious connection with your equine partner.
                     <br/>
                     <br/>
                     Duration: Approximately 1 Hour
@@ -98,12 +98,10 @@ export default function Pricing(){
                         An additional 6% charge will be applied to online bookings.
                         <br/>
                         <br/>
-                        If your intended booking date(s) show no availability,
-                        contact for possible special accomodations.
+                        If your intended booking date(s) show no availability, contact us for possible special accommodation.
                         <br/>
                         <br/>
-                        These prices for the Greater Salt Lake area. Contact for 
-                        pricing beyond the Greater Salt Lake area.
+                        These prices for the Greater Salt Lake area. Please contact us for pricing outside of this area.
                         <br/>
                         <br/>
                         Legal guardians will be required to sign for all participating minors.
