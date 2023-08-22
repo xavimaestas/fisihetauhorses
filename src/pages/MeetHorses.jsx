@@ -38,7 +38,7 @@ export default function MeetHorses(){
             <h4>Sunshine</h4>
             <p>
                 The boss, smart and swift. Sunshine’s striking blue and brown eyes fit her personality perfectly. Her fierce disposition make her serious competition as the boss in any herd. However, don’t let her fool you, she’s just playing hard to get. 😉 Sunshine is a papered American Paint Horse and stands at 16.1 hands tall. She was sired in Lehi, Utah in 2012. Sunshine is certainly Sam’s ride or die.
-            </p>xss
+            </p>
         </div>
 
         <img className="meet-horse-img" alt="An orange horse in a horse pen in the forest, eating hay on the ground." src={sunshineMain}></img>
