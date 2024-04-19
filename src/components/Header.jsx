@@ -9,23 +9,23 @@ export default function Header(){
                
 
 
-                <div className="title_container">
-                    <Link className="main_title" to="/">Fisihetau Horses</Link>
+                <div className="title-container">
+                    <Link className="main-title" to="/">Fisihetau Horses</Link>
                     
                     
 
                 </div>
-                <div className="nav_container">
+                <div className="nav-container">
 
                     <NavLink className="navLink" to="/meetthehorses" >MEET THE HORSES</NavLink>
                     <NavLink className="navLink" to="/pricing" >BOOKING & CONTACT</NavLink>
-                    <NavLink className="navLink navLink-top-margin" to="/abouttheowner">ABOUT THE COWBOY</NavLink>
+                    <NavLink className="navLink navLink-top-margin" to="/abouttheowner">ABOUT THE HORSEMAN</NavLink>
                     
                 </div>
 
-                {/* <div className="drop_down">
+                {/* <div className="drop-down">
                 <i className="fa-solid fa-bars"></i>
-                <div className="drop_down_content">
+                <div className="drop-down-content">
                     <NavLink className="navLink" to="/meetthehorses" >MEET THE HORSES</NavLink>
                     <NavLink className="navLink" to="/pricing" >PRICING & BOOKING</NavLink>
                     <NavLink className="navLink" to="/abouttheowner">ABOUT THE OWNER</NavLink>

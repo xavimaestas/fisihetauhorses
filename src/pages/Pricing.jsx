@@ -1,5 +1,10 @@
 import newbg from "../assets/newbg.png"
+import meethorses1 from "../assets/meethorses1.jpg"
+import meethorses2 from "../assets/meethorses2.jpg"
+import samcanyon from "../assets/sam-canyon.jpeg"
+import contactcard from "../assets/contactcard.jpg"
 import Card from "../components/Card"
+import GiftCard from "../components/GiftCard"
 
 export default function Pricing(){
 
@@ -7,6 +12,8 @@ export default function Pricing(){
         
 
     <div className="pricing-container">
+
+       
 
         <div className="card-container">
         <Card 
@@ -43,19 +50,34 @@ export default function Pricing(){
                 
                 <Card 
                     title="Gift Cards"
-                    text="Bestow the joy of horse riding with a Gift Card. Let them saddle up for an unforgettable equestrian adventure and create cherished memories that gallop with them forever!"
-                    image={"https://images.unsplash.com/photo-1598711033236-3e0b403a14e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"}
+                    image={contactcard}
                     btn={"https://fareharbor.com/embeds/book/fisihetauhorses/items/480824/?full-items=yes&flow=1006891"}
                     price={null}
                 />
 
         </div>
+
+        <div className="booking-fine-print">
+                       <span>Please Note:</span> 
+                       <p>
+                        An additional 6% charge will be applied to online bookings.
+                        <br/>
+                        <br/>
+                        If your intended booking date(s) show no availability, contact us for possible special accommodation.
+                        <br/>
+                        <br/>
+                        These prices for the Greater Salt Lake area. Please contact us for pricing outside of this area.
+                        <br/>
+                        <br/>
+                        Legal guardians will be required to sign for all participating minors.
+                       </p>
+        </div>
                 
-        <ul className="contact_main">
+        <ul className="contact-main">
                         <h4>Contact Us</h4>
                         <li>(801) 815-2573</li>
                         <li>snfisihetau@gmail.com</li>
-                    </ul>
+        </ul>
             
 
     </div>
