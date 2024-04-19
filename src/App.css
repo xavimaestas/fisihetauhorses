@@ -566,8 +566,8 @@ header {
   max-width: 400px;
   min-width: 300px;
   height: 80vh; 
-  max-height: 810px;
-  min-height: 810px;
+  max-height: 510px;
+  min-height: 510px;
   background-color: #ECECEA;
   box-shadow: 9px 9px 13px black;
   border-radius: 5px;
@@ -642,6 +642,8 @@ header {
   padding: 8px 13px;
   background-color: rgb(236, 236, 234, 0.75);
   border-radius: 5px;
+  bottom: 325px;
+    left: 80%;
   
 }
 
@@ -970,14 +972,14 @@ footer {
 
   .fareharbor-card {
     max-width: 450px;
-    max-height: 700px;
-    min-height: 700px;
+    max-height: 600px;
+    min-height: 600px;
     
   }
 
   .fareharbor-price-container {
    
-    bottom: 490px;
+    bottom: 390px;
     left: 80%;
     
   }
