@@ -83,9 +83,11 @@ export default function Pricing(){
                 
                 <Card 
                     title="Gift Cards"
+                    text="With our gift cards, you're not just giving a present – you're giving the gift of freedom and discovery. Whether it's exploring breathtaking trails, honing riding skills with expert instructors, or bonding with majestic horses, there's something for every equestrian enthusiast to enjoy."
                     image={contactcard}
                     btn={"https://fareharbor.com/embeds/book/fisihetauhorses/items/480824/?full-items=yes&flow=1006891"}
                     price={null}
+                    giftSize="gift-size"
                 />
 
         </div>
