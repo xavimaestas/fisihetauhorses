@@ -42,7 +42,6 @@ export default function Main(){
                     <img  className="sam-riding-v1"alt="close up of two horses" src={newBg}></img>
 
                     <div className="experience-text">
-                        <h2>Let's Ride!</h2>
                         <p>
                             Learn how to care for, saddle and ride these majestic
                             creatures in a private and authentic setting.

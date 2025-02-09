@@ -112,7 +112,7 @@ header {
   min-width: 280px;
   height: 25vh;
   min-height: 150px;
-  max-height: 175px;
+  max-height: 200px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -127,7 +127,7 @@ header {
 .main-title {
   margin: 2rem 1rem 0 1rem;
   font-size: 3.5rem;
-  max-width: 300px;
+  max-height: 100px;
   
 }
 
@@ -844,7 +844,7 @@ footer {
   }
 
   .main-title {
-    min-width: 330px;
+    max-width: 300px;
     margin: 4rem 1rem 0 1rem;
     font-size: 3.5rem;
   }
