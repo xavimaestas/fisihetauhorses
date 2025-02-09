@@ -1,6 +1,6 @@
 import {NavLink, Link} from 'react-router-dom'
 import Dropdown from './Dropdown'
-import logo from '/Users/xmaestas/Documents/dev ic/fisihetauhorses/src/assets/FH logo.png'
+import logo from '../assets/FH-logo.png'
 
 export default function Header(){
     return (
