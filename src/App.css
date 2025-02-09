@@ -127,7 +127,8 @@ header {
 .main-title {
   margin: 2rem 1rem 0 1rem;
   font-size: 3.5rem;
-  max-height: 100px;
+  max-height: 135px;
+  max-width: 50vw;
   
 }
 
@@ -140,7 +141,7 @@ header {
 
  .nav-container {
   margin: 1rem 1rem 0 0;
-  width: 50vw;
+  width: 40vw;
   display: flex;
   flex-direction: column;
   text-align: right;
@@ -201,6 +202,7 @@ header {
   font-weight: bold;
   text-decoration: none;
   color: black;
+  font-size: 12px;
 }
 
 
@@ -836,7 +838,7 @@ footer {
   .nav-container {
     display: block;
     align-items: center;
-    width: 70vw;
+    width: 50vw;
   }
 
   .nav-container a {
@@ -844,8 +846,8 @@ footer {
   }
 
   .main-title {
-    max-width: 300px;
-    margin: 4rem 1rem 0 1rem;
+    max-width: 400px;
+    margin: 1rem 1rem 0 1rem;
     font-size: 3.5rem;
   }
 
