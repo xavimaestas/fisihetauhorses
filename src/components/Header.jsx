@@ -1,5 +1,6 @@
 import {NavLink, Link} from 'react-router-dom'
 import Dropdown from './Dropdown'
+import logo from '/Users/xmaestas/Documents/dev ic/fisihetauhorses/src/assets/FH logo.png'
 
 export default function Header(){
     return (
@@ -10,7 +11,9 @@ export default function Header(){
 
 
                 <div className="title-container">
-                    <Link className="main-title" to="/">Fisihetau Horses</Link>
+                    <Link className="main-title" to="/">
+                    <img src={logo} alt="Fisihetau Horses Logo" className="main-title" />
+                    </Link>
                     
                     
 

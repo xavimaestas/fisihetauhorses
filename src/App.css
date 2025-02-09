@@ -125,14 +125,9 @@ header {
   
 
 .main-title {
-  font-family: 'Aguafina Script', cursive;
-  font-weight: bold;
-  font-size: 2.8rem;
-  margin: 1rem 0 0 2rem;
-  color: #212427;
-  text-decoration: none;
-  display: flex;
-  width: 40vw;
+  margin: 2rem 1rem 0 1rem;
+  font-size: 3.5rem;
+  max-width: 300px;
   
 }
 
@@ -849,7 +844,8 @@ footer {
   }
 
   .main-title {
-    width: 30vw;
+    min-width: 330px;
+    margin: 4rem 1rem 0 1rem;
     font-size: 3.5rem;
   }
 
