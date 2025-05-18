@@ -110,7 +110,7 @@ export default function Pricing(){
                 
         <ul className="contact-main">
                         <h4>Contact Us</h4>
-                        <li>(801) 815-2573</li>
+                        <li>(801) 815-2473</li>
                         <li>snfisihetau@gmail.com</li>
         </ul>
             
