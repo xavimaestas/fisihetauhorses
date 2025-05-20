@@ -101,7 +101,7 @@ export default function Pricing(){
                         If your intended booking date(s) show no availability, contact us for possible special accommodation.
                         <br/>
                         <br/>
-                        These prices for the Greater Salt Lake area. Please contact us for pricing outside of this area.
+                        These prices for Wasatch County. Please contact us for pricing outside of this area.
                         <br/>
                         <br/>
                         Legal guardians will be required to sign for all participating minors.
