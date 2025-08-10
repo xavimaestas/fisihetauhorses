@@ -43,7 +43,7 @@ export default function Pricing(){
                     </div>}
                     image={meethorses2}
                     btn={"https://fareharbor.com/embeds/book/fisihetauhorses/items/480767/calendar/2023/07/?full-items=yes&flow=1006891"}
-                    price={"$159"}
+                    price={"$185.50"}
                     
                 />
 
