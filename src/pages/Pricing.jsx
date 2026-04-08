@@ -26,7 +26,7 @@ export default function Pricing(){
                     <br/>
                     Please Note: Maximum capacity of 2 riders, single rider bookings will be charged an additional $25. Age minimum +6 and weight limit of 250lbs. All minors must be accompanied by an adult.</div>}
                     image={samcanyon}
-                    btn={"https://fareharbor.com/embeds/book/fisihetauhorses/items/480734/?full-items=yes&flow=1006891"}
+                    btn={"https://fareharbor.com/embeds/book/fisihetauhorses/items/718972/?full-items=yes&flow=1605463"}
                     price={"$250"}
                     imageStyle="samcanyon"
                 />
@@ -42,7 +42,7 @@ export default function Pricing(){
 
                     </div>}
                     image={meethorses2}
-                    btn={"https://fareharbor.com/embeds/book/fisihetauhorses/items/480767/calendar/2023/07/?full-items=yes&flow=1006891"}
+                    btn={"https://fareharbor.com/embeds/book/fisihetauhorses/items/718973/?full-items=yes&flow=1605463"}
                     price={"$350"}
                     
                 />
@@ -59,7 +59,7 @@ export default function Pricing(){
     
                         </div>}
                     image={meethorses1}
-                    btn={"https://fareharbor.com/embeds/book/fisihetauhorses/items/480554/?full-items=yes&flow=1006891"}
+                    btn={"https://fareharbor.com/embeds/book/fisihetauhorses/items/718974/?full-items=yes&flow=1605463"}
                     price={"$750"}
                     imageStyle="meethorses1"
                 />
@@ -77,7 +77,7 @@ export default function Pricing(){
 
                     </div>}
                     image={newbg}
-                    btn={"https://fareharbor.com/embeds/book/fisihetauhorses/items/480785/?full-items=yes&flow=1006891"}
+                    btn={"https://fareharbor.com/embeds/book/fisihetauhorses/items/718975/?full-items=yes&flow=1605463"}
                     price={"$1500"}
                 />
                 
